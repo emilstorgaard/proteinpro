@@ -4,4 +4,4 @@ services:
   frontend:
     image: bodyup:latest
     ports:
-      - '8580:8580'
+      - '8680:8680'
