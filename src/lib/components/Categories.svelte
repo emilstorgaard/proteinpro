@@ -5,11 +5,11 @@
 </script>
 
 <div class="relative z-10 mt-8 w-full max-w-6xl px-3 sm:px-4 lg:px-6">
-	<div class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
+	<div class="flex flex-wrap justify-center gap-4">
 		{#each categories as category}
 			<a
 				href={category.url}
-				class="transform overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm transition-all duration-200 hover:-translate-y-1 hover:shadow-md"
+				class="w-48 transform overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm transition-all duration-200 hover:-translate-y-1 hover:shadow-md"
 			>
 				<div class="relative">
 					<img

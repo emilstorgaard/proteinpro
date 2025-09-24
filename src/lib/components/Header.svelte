@@ -22,14 +22,13 @@
 
 			<!-- Desktop Nav -->
 			<nav class="hidden space-x-8 md:flex">
-				{#each categories as category}
+				{#each categories as category, i}
 					<div class="group relative">
 						<a
 							href={category.url}
 							class="relative font-medium text-gray-700 transition hover:text-blue-600"
 						>
 							{category.name}
-							<!-- underline animation -->
 							<span
 								class="absolute -bottom-1 left-0 h-0.5 w-0 bg-blue-600 transition-all duration-300 group-hover:w-full"
 							></span>
@@ -37,7 +36,8 @@
 
 						<!-- Dropdown -->
 						<div
-							class="invisible absolute left-0 z-20 mt-3 w-56 origin-top rounded-xl border border-gray-100 bg-white p-2 opacity-0 shadow-lg ring-1 ring-black/5 transition-all duration-200 ease-out group-hover:visible group-hover:translate-y-1 group-hover:opacity-100"
+							class="invisible absolute z-20 mt-3 w-56 origin-top rounded-xl border border-gray-100 bg-white p-2 opacity-0 shadow-lg ring-1 ring-black/5 transition-all duration-200 ease-out group-hover:visible group-hover:translate-y-1 group-hover:opacity-100
+          {i > categories.length - 3 ? 'right-0 left-auto' : 'left-0'}"
 						>
 							{#each subCategories.filter( (sc) => sc.categoryIds.includes(category.id) ) as subCategory}
 								<a

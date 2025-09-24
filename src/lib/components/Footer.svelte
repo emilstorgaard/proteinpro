@@ -2,8 +2,8 @@
 	import { categories } from '$lib/data/categories';
 
 	const socialLinks = [
-		{ name: 'Instagram', url: '#', icon: '/icons/instagram.png' },
-		{ name: 'TikTok', url: '#', icon: '/icons/tiktok.png' }
+		{ name: 'Instagram', url: 'https://www.instagram.com/bodyup.dk', icon: '/icons/instagram.png' },
+		{ name: 'TikTok', url: 'https://www.tiktok.com/@bodyup.dk', icon: '/icons/tiktok.png' }
 	];
 </script>
 
@@ -41,7 +41,12 @@
 			<!-- Socials -->
 			<div class="mb-3 flex space-x-4 md:mb-0">
 				{#each socialLinks as social}
-					<a href={social.url} class="text-gray-400 hover:text-blue-400">
+					<a
+						href={social.url}
+						class="text-gray-400 hover:text-blue-400"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
 						<span class="sr-only">{social.name}</span>
 						<img src={social.icon} alt={social.name} class="h-6 w-6" />
 					</a>
