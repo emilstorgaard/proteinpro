@@ -26,11 +26,7 @@
 				<div class="p-4">
 					<h3 class="text-base font-medium text-gray-900">{product.name}</h3>
 					<p class="mt-1 font-semibold text-blue-600">{product.price} kr</p>
-					<button
-						class="mt-3 w-full rounded-md bg-blue-600 px-3 py-1.5 text-sm text-white transition hover:bg-blue-700"
-					>
-						Køb
-					</button>
+					<a href={product.url} target="_blank" rel="nofollow noopener" class="mt-3 w-full rounded-md bg-blue-600 px-3 py-1.5 text-sm text-white transition hover:bg-blue-700 inline-block text-center no-underline">Køb</a>
 				</div>
 			</div>
 		{/each}

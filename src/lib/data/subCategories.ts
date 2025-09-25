@@ -43,4 +43,18 @@ export const subCategories: SubCategory[] = [
         url: "/elektrolytter",
         image: "/elektrolytter.png",
     },
+    {
+        id: 7,
+        name: "Gel",
+        categoryIds: [3],
+        url: "/gel",
+        image: "/gel.jpg",
+    },
+    {
+        id: 8,
+        name: "Shaker",
+        categoryIds: [4],
+        url: "/shaker",
+        image: "/accessories.jpg",
+    },
 ];

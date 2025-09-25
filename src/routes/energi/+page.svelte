@@ -1,5 +1,4 @@
 <script lang="ts">
-	import Categories from '$lib/components/Categories.svelte';
 	import { subCategories } from '$lib/data/subCategories';
 	import { products } from '$lib/data/products';
 	import Products from '$lib/components/Products.svelte';

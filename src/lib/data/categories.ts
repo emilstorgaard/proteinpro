@@ -19,4 +19,10 @@ export const categories: Category[] = [
         url: "/energi",
         image: "/energy.png",
     },
+    {
+        id: 4,
+        name: "Tilbehør",
+        url: "/accessories",
+        image: "/accessories.jpg",
+    },
 ];
