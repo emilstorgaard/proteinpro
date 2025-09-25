@@ -16,7 +16,7 @@
 		text="Proteinpulver er et kosttilskud, der hjælper med muskelopbygning, restitution og at dække
 				dit daglige proteinbehov. Perfekt til alle, der træner, vil optimere deres resultater eller
 				har brug for ekstra protein i hverdagen."
-		backgroundImage="/muskelopbygning.png"
+		backgroundImage="/proteinpowder.jpg"
 	/>
 
 	<Products products={proteinpulverProducts} title="Proteinpulver" />

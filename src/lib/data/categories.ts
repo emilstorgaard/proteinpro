@@ -11,7 +11,7 @@ export const categories: Category[] = [
         id: 2,
         name: "Mad & Snacks",
         url: "/mad-snacks",
-        image: "/foodAndSnacks.png",
+        image: "/snacks.png",
     },
     {
         id: 3,
@@ -24,5 +24,11 @@ export const categories: Category[] = [
         name: "Tilbehør",
         url: "/accessories",
         image: "/accessories.jpg",
+    },
+    {
+        id: 5,
+        name: "Andet",
+        url: "/other",
+        image: "/other.png",
     },
 ];

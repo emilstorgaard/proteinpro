@@ -55,6 +55,20 @@ export const subCategories: SubCategory[] = [
         name: "Shaker",
         categoryIds: [4],
         url: "/shaker",
+        image: "/shaker.jpg",
+    },
+    {
+        id: 9,
+        name: "Andet",
+        categoryIds: [5],
+        url: "/other",
         image: "/accessories.jpg",
+    },
+    {
+        id: 10,
+        name: "Snacks",
+        categoryIds: [2],
+        url: "/snacks",
+        image: "/snacks.png",
     },
 ];

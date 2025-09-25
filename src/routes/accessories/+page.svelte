@@ -18,7 +18,7 @@
 	<Hero
 		title="Tilbehør"
 		text="Udforsk vores udvalg af tilbehør"
-		backgroundImage="/energy.png"
+		backgroundImage="/accessories.jpg"
 		categories={accessoriesSubCategories}
 	/>
 

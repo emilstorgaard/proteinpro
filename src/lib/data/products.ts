@@ -3,6 +3,45 @@ import type { Product } from "../types/product";
 export const products: Product[] = [
     {
         "id": 1,
+        "retailer": "Gummi Gainz",
+        "brand": "GummiGainz",
+        "name": "Creatine Gummies - Strawberry",
+        "price": 199.95,
+        "description": "Prøv vores velsmagende kreatin vingummier, der indeholder hele 3000 mg kreatinmonohydrat. De er designet til at hjælpe dig med at yde mere, opbygge muskler og blive stærkere. Det er en nem og lækker måde at tage dit træningspotentiale til næste niveau",
+        "subCategoryIds": [
+            2
+        ],
+        "image": "https://cdn.shopify.com/s/files/1/0703/7200/0008/files/creatine-gummieskreatin-720016.jpg?v=1731834604",
+        "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=113761&partnerid=55316&htmlurl=https://gummigainz.dk/products/creatine-gummies?variant=45107480428808"
+    },
+    {
+        "id": 2,
+        "retailer": "Gummi Gainz",
+        "brand": "GummiGainz",
+        "name": "Creatine Gummies - Green apple",
+        "price": 199.95,
+        "description": "Prøv vores velsmagende kreatin vingummier, der indeholder hele 3000 mg kreatinmonohydrat. De er designet til at hjælpe dig med at yde mere, opbygge muskler og blive stærkere. Det er en nem og lækker måde at tage dit træningspotentiale til næste niveau",
+        "subCategoryIds": [
+            2
+        ],
+        "image": "https://cdn.shopify.com/s/files/1/0703/7200/0008/files/creatine-gummieskreatin-674896.jpg?v=1731834604",
+        "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=113761&partnerid=55316&htmlurl=https://gummigainz.dk/products/creatine-gummies?variant=44964112433416"
+    },
+    {
+        "id": 3,
+        "retailer": "Jeyafit",
+        "brand": "Jeyafit",
+        "name": "Kreatin Monohydrat Vingummier",
+        "price": 219.0,
+        "description": "Kreatin  Er et naturligt stof, som kroppen selv producerer i små mængder, og et af de mest veldokumenterede kosttilskud til øget fysisk præstation. Hver dagsdosis (2 vingummier) indeholder 3000 mg kreatin monohydrat, som bidrager til forbedret fysisk ydee",
+        "subCategoryIds": [
+            2
+        ],
+        "image": "https://cdn.shopify.com/s/files/1/0896/5036/4749/files/1_7bec2dff-43b4-447c-acf8-1223b9b44d3c.jpg?v=1747316060",
+        "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=114949&partnerid=55316&htmlurl=https://jeyafit.dk/products/jeyafit-kreatin-gummies?variant=51659771478349"
+    },
+    {
+        "id": 4,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Energy Gel Ananas 40 g",
@@ -15,7 +54,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/energy-gel-bc-ananas-40g"
     },
     {
-        "id": 2,
+        "id": 5,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Shaker 500+150 ml",
@@ -28,7 +67,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/shakerflaske-500-150-ml"
     },
     {
-        "id": 3,
+        "id": 6,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Energy Gel Citrus-/Grøn Te 40 g",
@@ -41,7 +80,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/energy-gel-citrus-gronte-40-g"
     },
     {
-        "id": 4,
+        "id": 7,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Hydro Appelsin 20 tabs",
@@ -54,7 +93,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/hydro-appelsin-20-x-4-g"
     },
     {
-        "id": 5,
+        "id": 8,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Hydro Tropical 20 tabs",
@@ -67,7 +106,20 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/hydro-tropical-20-x-4-g"
     },
     {
-        "id": 7,
+        "id": 9,
+        "retailer": "PurePower",
+        "brand": "PurePower",
+        "name": "PurePower Omega-3 150 stk.",
+        "price": 329.0,
+        "description": "PurePower Omega-3 kapsler tilfører de vigtige flerumættede Omega-3 fedtsyrer, som vores krop ikke kan producere selv. Bestiller du i dag, får du dine Omega-3 fedtsyrer leveret i løbet af et par dage. Omega-3 tilhører den særlige gruppe af langkædede fedts",
+        "subCategoryIds": [
+            9
+        ],
+        "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/Omega_3-Mockup.png?v=1702893799",
+        "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/omega-3-fiskeolie-kapsler-150-stk"
+    },
+    {
+        "id": 10,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Hydro Røde Bær 20 tabs",
@@ -80,7 +132,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/hydro-rode-baer-20-x-4-g"
     },
     {
-        "id": 8,
+        "id": 11,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Hydro Plus hindbær 20 tabs",
@@ -93,7 +145,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/hydro-plus-hindbaer-20-x-4-g"
     },
     {
-        "id": 9,
+        "id": 12,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Hydro Plus Citrus 20 tabs",
@@ -106,7 +158,20 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/hydro-plus-citrus-20-x-4-g"
     },
     {
-        "id": 11,
+        "id": 13,
+        "retailer": "PurePower",
+        "brand": "PurePower",
+        "name": "Magnesium kapsler 90 stk.",
+        "price": 149.0,
+        "description": "Mineralet magnesium er vigtigt for nogle funktioner i kroppen. Du kan typisk få nok af det gennem kosten, men som sportsudøver er det særligt vigtigt, at du er opmærksom på at få nok, da det kan påvirke din præstation. Magnesium er et vigtigt mineral, der",
+        "subCategoryIds": [
+            9
+        ],
+        "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/Magnesium.png?v=1714039132",
+        "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/magnesium-kapsler-90-stk"
+    },
+    {
+        "id": 14,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Electrolyte Capsules 90 stk.",
@@ -119,7 +184,33 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/electrolyte-capsules-90-stk"
     },
     {
-        "id": 14,
+        "id": 15,
+        "retailer": "PurePower",
+        "brand": "PurePower",
+        "name": "Multivitamin 100 stk.",
+        "price": 149.0,
+        "description": "PurePowers multivitamin er kosttilskud til voksne og børn over 11 år. Med PurePowers Multivitamin får du et tilskud til dit daglige behov for vitaminer. Du får 100 kapsler i en bøtte. Vitaminernes funktion: A-vitamin bidrager til at vedligeholde normale s",
+        "subCategoryIds": [
+            9
+        ],
+        "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/Multivitamin.png?v=1738671539",
+        "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/multivitamin-100-stk"
+    },
+    {
+        "id": 16,
+        "retailer": "PurePower",
+        "brand": "PurePower",
+        "name": "PurePower Koffein kapsler 90 stk.",
+        "price": 169.0,
+        "description": "Hver kapsel indeholder 100 mg syntetisk koffein udvundet af naturlig guarana-ekstrakt. Bestil i dag med hurtig levering. En lille kapsel med koffein er en nem løsning, men du må maksimalt tage 3 koffein kapsler dagligt. Denne dosis bør ikke overskrides. D",
+        "subCategoryIds": [
+            9
+        ],
+        "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/Koffein-Mockup.png?v=1702893771",
+        "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/koffein-kapsler-90-stk"
+    },
+    {
+        "id": 17,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race Elektrolyt Citrus 1 kg",
@@ -132,7 +223,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/carbo-race-elektrolyt-citrus-1-kg"
     },
     {
-        "id": 15,
+        "id": 18,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Hydro Plus Ananas 20 tabs",
@@ -145,59 +236,59 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/hydro-plus-ananas-20-x-4-g"
     },
     {
-        "id": 16,
+        "id": 19,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Energy Snack Kokos 60 g",
         "price": 23.0,
         "description": "PurePower Energy Snack er en velsmagende energibar udviklet i Danmark  -  baseret på havre og glukosesirup, som giver både hurtig og vedvarende energi. Blød energibar med skøn kokossmag, der er perfekt som ekstra energi før eller under træning, eller som",
         "subCategoryIds": [
-            5
+            10
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/Energy-snack_kokos_2022.png?v=1703014620",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/energy-snack-kokos-60-g"
     },
     {
-        "id": 17,
+        "id": 20,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Energy Snack Kokos 12x60 g",
         "price": 276.0,
         "description": "Med PurePower Energy Snack Kokos får du en lækker bounty-bid, der giver dig ekstra energi, så du kan komme hele vejen gennem dit træningspas  -  eller undgår at gå sukkerkold lige inden målstregen. Kokos-baren er også tilsat havregryn, så du får fibre. Be",
         "subCategoryIds": [
-            5
+            10
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/Energy_Snack_kokos_1200x1200px.png?v=1712137543",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/energy-snack-kokos-12-x-60-g"
     },
     {
-        "id": 18,
+        "id": 21,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Energy Snack Karamel Peanut 60 g",
         "price": 23.0,
         "description": "PurePower Energy Snack er en velsmagende energibar udviklet i Danmark  -  baseret på havre og glukosesirup, som giver både hurtig og vedvarende energi. Blød energibar med smag af karamel og peanutbutter, som kombinerer cremet konsistens med et sprødt bid",
         "subCategoryIds": [
-            5
+            10
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/Energy-snack_karamel_2022-1.png?v=1703014607",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/energy-snack-karamel-peanut-60-g"
     },
     {
-        "id": 19,
+        "id": 22,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Energy Snack Karamel Peanut 12x60 g",
         "price": 276.0,
         "description": "Med PurePower Energy Snack Karamel/Peanut får du ikke bare en almindelig energibar, men en snack med et twist! Vores Energy Snack Karamel/Peanut er en lækker blanding af smagfulde karamel og nøddesmag fra peanutbutter, som vil forkæle dine smagsløg, mens",
         "subCategoryIds": [
-            5
+            10
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/Energy_Snack_Karamel_1200x1200px.png?v=1712137521",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/energy-snack-karamel-peanut-12-x-60-g"
     },
     {
-        "id": 20,
+        "id": 23,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race Elektrolyt Citrus 50 g",
@@ -210,7 +301,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/carbo-race-elektrolyt-citrus-50-g"
     },
     {
-        "id": 21,
+        "id": 24,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race Elektrolyt Appelsin 50 g",
@@ -223,124 +314,125 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/carbo-race-elektrolyt-appelsin-50-g"
     },
     {
-        "id": 22,
+        "id": 25,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race Elektrolyt Appelsin 1 kg",
         "price": 189.0,
         "description": "Carbo Race Elektrolyt med appelsinsmag er vores pulverblanding til fremstilling af en kulhydrat-elektrolyt-opløsning, som bidrager til at vedligeholde udholdenhedspræstationen under længerevarende udholdenhedstræning samtidig med, at den øger optagelsen a",
         "subCategoryIds": [
-            6
+            6,
+            7
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/CarboRaceAppelsin24.png?v=1722255547",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/carbo-race-elektrolyt-appelsin-1-kg"
     },
     {
-        "id": 23,
+        "id": 26,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Energy Snack Tranebær 60 g",
         "price": 11.5,
         "description": "PurePower Energy Snack er en velsmagende energibar udviklet i Danmark  -  baseret på havre og glukosesirup, som giver både hurtig og vedvarende energi. Sød og syrlig energibar med tranebær, græskar- og solsikkekerner, som giver dig et energiboost med både",
         "subCategoryIds": [
-            5
+            10
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/Energy-snack_tranebaer_2022.png?v=1703014647",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/energy-snack-tranebaer-60-g"
     },
     {
-        "id": 24,
+        "id": 27,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Energy Snack Kakao Fudge 60 g",
         "price": 23.0,
         "description": "PurePower Energy Snack er en velsmagende energibar udviklet i Danmark  -  baseret på havre og glukosesirup, som giver både hurtig og vedvarende energi. Blød energibar med smag af kakao og karamel  -  toppet med en lækker fudge, der giver kagefornemmelse u",
         "subCategoryIds": [
-            5
+            10
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/Energy_Snack_kakao_fudge_2023.png?v=1703014594",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/energy-snack-kakao-fudge-60-g"
     },
     {
-        "id": 25,
+        "id": 28,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Energy Snack Kakao Fudge 12x60 g",
         "price": 276.0,
         "description": "En blanding af kakao og karamel - lyder det ikke bare for lækkert?? Energy Snack Kakao Fudge får mundvandet til at løbe før du når at sætte tænderne i den! Du får en ultimativ smagsoplevelse i denne energibar, foruden at sørge for optimale kulhydrater og",
         "subCategoryIds": [
-            5
+            10
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/Energy_Snack_kakaoFudge_1200x1200px.png?v=1712137493",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/energy-snack-kakao-fudge-12-x-60-g"
     },
     {
-        "id": 26,
+        "id": 29,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Energy Snack Tranebær 12x60 g",
         "price": 165.5,
         "description": "Tranebær Energi Snack - En opgradering af den originale Vores Tranebær Energi Snack med kerner er en ny og forbedret version af vores populære Energi Snack Original. Vi har taget den søde smag fra Original og tilføjet en syrlig tvist med tørrede tranebær.",
         "subCategoryIds": [
-            5
+            10
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/Energy_Snack_Tranebaer_1200x1200px.png?v=1712137591",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/energy-snack-tranebaer-12-x-60-g"
     },
     {
-        "id": 27,
+        "id": 30,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Energy Snack Original 60 g",
         "price": 23.0,
         "description": "PurePower Energy Snack er en velsmagende energibar udviklet i Danmark  -  baseret på havre og glukosesirup, som giver både hurtig og vedvarende energi. Klassisk energibar med mild, naturlig havresmag, som er enkel, blød og fyldt med energi til både trænin",
         "subCategoryIds": [
-            5
+            10
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/Energy-snack_havre_2022.png?v=1703014634",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/energy-snack-original-60-g"
     },
     {
-        "id": 28,
+        "id": 31,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Energy Snack Original 12x60 g",
         "price": 276.0,
         "description": "Energibar med en forbedret oplevelse - Optag energi hurtigere end nogensinde før! Gør dig klar til en opgradering af den originale Energy Snack. Fra det øjeblik du smager vores Energy Snack, vil du forstå, hvorfor det er blevet så populært. Vi har lagt st",
         "subCategoryIds": [
-            5
+            10
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/Energy_Snack_havre_1200x1200px.png?v=1712137564",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/energy-snack-original-12-x-60-g"
     },
     {
-        "id": 29,
+        "id": 32,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Energy Snack Kakao 60 g",
         "price": 23.0,
         "description": "PurePower Energy Snack er en velsmagende energibar udviklet i Danmark  -  baseret på havre og glukosesirup, som giver både hurtig og vedvarende energi. Blød energibar med rig kakaosmag, som minder om havregrynskugler og giver dig et energiboost med en kla",
         "subCategoryIds": [
-            5
+            10
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/Energy-snack_kakao_2022.png?v=1703014578",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/energy-snack-kakao-60-g"
     },
     {
-        "id": 30,
+        "id": 33,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Energy Snack Kakao 12x60 g",
         "price": 276.0,
         "description": "Energy Snack Kakao er vores mest solgte energibar, med en smag som minder dig om havregrynskugler. Vores Energy Snack Kakao er en nytænkt energibar, der fylder dit energidepot med både komplekse og simple kulhydrater, som kan anvendes både før, under elle",
         "subCategoryIds": [
-            5
+            10
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/Energy_Snack_Kakao_1200x1200px.png?v=1712137456",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/energy-snack-kakao-12-x-60-g"
     },
     {
-        "id": 31,
+        "id": 34,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Soft Water Bottle 250 ml",
@@ -353,7 +445,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/soft-water-bottle-sort-250-ml"
     },
     {
-        "id": 32,
+        "id": 35,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Soft Water Bottle 500 ml",
@@ -366,7 +458,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/soft-water-bottle-sort-500-ml"
     },
     {
-        "id": 33,
+        "id": 36,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race Elektrolyt Hyldeblomst 50 g",
@@ -379,20 +471,21 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/carbo-race-elektrolyt-hyldeblomst-50-g"
     },
     {
-        "id": 34,
+        "id": 37,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race Elektrolyt Hyldeblomst 1 kg",
         "price": 189.0,
         "description": "Carbo Race Elektrolyt med hyldeblomstsmag er vores pulverblanding til fremstilling af en kulhydrat-elektrolyt-opløsning, som bidrager til at vedligeholde udholdenhedspræstationen under længerevarende udholdenhedstræning samtidig med, at den øger optagelse",
         "subCategoryIds": [
-            6
+            6,
+            7
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/CarboRaceHyldeblomst24.png?v=1722255842",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/carbo-race-elektrolyt-hyldeblomst-1-kg"
     },
     {
-        "id": 35,
+        "id": 38,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race Elektrolyt Blåbær 50 g",
@@ -405,20 +498,21 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/carbo-race-elektrolyt-blabaer-50-g"
     },
     {
-        "id": 36,
+        "id": 39,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race Elektrolyt Blåbær 1 kg",
         "price": 189.0,
         "description": "Carbo Race Elektrolyt med blåbærsmag er vores pulverblanding til fremstilling af en kulhydrat-elektrolyt-opløsning, som bidrager til at vedligeholde udholdenhedspræstationen under længerevarende udholdenhedstræning samtidig med, at den øger optagelsen af",
         "subCategoryIds": [
-            6
+            6,
+            7
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/CarboRaceBlaabaer24.png?v=1722255625",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/carbo-race-elektrolyt-blabaer-1-kg"
     },
     {
-        "id": 37,
+        "id": 40,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "PurePower Chews Frugtmix 40 g",
@@ -431,7 +525,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/chews-frugtmix-40-g"
     },
     {
-        "id": 38,
+        "id": 41,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "PurePower Chews Frugtmix 12x40 g",
@@ -444,7 +538,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/chews-frugtmix-12-x-40-g"
     },
     {
-        "id": 39,
+        "id": 42,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race Elektrolyt Hindbær 50 g",
@@ -457,20 +551,21 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/carbo-race-elektrolyt-hindbaer-50-g"
     },
     {
-        "id": 40,
+        "id": 43,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race Elektrolyt Hindbær 1 kg",
         "price": 189.0,
         "description": "Carbo Race Elektrolyt med hindbærsmag er vores pulverblanding til fremstilling af en kulhydrat-elektrolyt-opløsning, som bidrager til at vedligeholde udholdenhedspræstationen under længerevarende udholdenhedstræning samtidig med, at den øger optagelsen af",
         "subCategoryIds": [
-            6
+            6,
+            7
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/CarboRaceHindbaer24.png?v=1722255696",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/carbo-race-elektrolyt-hindbaer-1-kg"
     },
     {
-        "id": 41,
+        "id": 44,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "PurePower Cola Chews 40 g",
@@ -483,7 +578,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/chews-cola-40-g"
     },
     {
-        "id": 42,
+        "id": 45,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "PurePower Cola Chews 12x40 g",
@@ -496,7 +591,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/chews-cola-12-x-40-g"
     },
     {
-        "id": 43,
+        "id": 46,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Valleprotein Jordbær 400g",
@@ -509,7 +604,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/protein-jordbaer-400-g"
     },
     {
-        "id": 44,
+        "id": 47,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Valleprotein Kakao 400g",
@@ -522,20 +617,21 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/protein-kakao-400-g"
     },
     {
-        "id": 45,
+        "id": 48,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Recovery Bær/Citrus 400 g",
         "price": 149.0,
         "description": "PurePower Recovery er pulver med smag af bær og citrus, som giver dig et tilskud af protein og kulhydrat, når du skal restituere kroppen efter hård, fysisk anstrengelse. Pulveret er baseret på valleprotein uden fedt og tilføjet kollagen. Når kroppens musk",
         "subCategoryIds": [
-            1
+            1,
+            7
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/Recovery_400g_mockup_baercitrus-1.png?v=1703014842",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/recovery-baer-citrus-400-g"
     },
     {
-        "id": 46,
+        "id": 49,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Valleprotein Vanilje 400g",
@@ -548,7 +644,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/protein-vanilje-400-g"
     },
     {
-        "id": 47,
+        "id": 50,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Valleprotein Hindbær 400g",
@@ -561,59 +657,63 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/protein-hindbaer-400-g"
     },
     {
-        "id": 48,
+        "id": 51,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Recovery Vanilje Blåbær 50 g",
         "price": 11.5,
         "description": "PurePower Recovery er pulver med smag af vanilje og blåbær, som giver dig et tilskud af protein og kulhydrat, når du skal restituere kroppen efter hård, fysisk anstrengelse. Pulveret er baseret på valleprotein uden fedt og tilføjet kollagen. Når kroppens",
         "subCategoryIds": [
-            1
+            1,
+            7
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/Recovery_blaabaer_2000x2000_0bf4b714-ea7f-4720-92dc-c3d4cbc94484.png?v=1702893859",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/recovery-vanilje-blabaer-50-g"
     },
     {
-        "id": 49,
+        "id": 52,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Recovery Vanilje/Blåbær 400 g",
         "price": 149.0,
         "description": "PurePower Recovery er pulver med smag af vanilje og blårbær, som giver dig et tilskud af protein og kulhydrat, når du skal restituere kroppen efter hård, fysisk anstrengelse. Pulveret er baseret på valleprotein uden fedt og tilføjet kollagen. Når kroppens",
         "subCategoryIds": [
-            1
+            1,
+            7
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/Recovery_400g_mockup_blueberry1-1.png?v=1703014863",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/recovery-vanilje-blabaer-400-g"
     },
     {
-        "id": 50,
+        "id": 53,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Recovery Mango & Appelsin 400 g",
         "price": 149.0,
         "description": "PurePower Recovery er pulver med smag af mango og appelsin, som giver dig et tilskud af protein og kulhydrat, når du skal restituere kroppen efter hård, fysisk anstrengelse. Pulveret er baseret på valleprotein uden fedt og tilføjet kollagen. Når kroppens",
         "subCategoryIds": [
-            1
+            1,
+            7
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/Recovery_400g_mockup_mango.png?v=1712747621",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/recovery-appelsin-mango-400-g"
     },
     {
-        "id": 51,
+        "id": 54,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Recovery Røde Bær 400 g",
         "price": 149.0,
         "description": "PurePower Recovery er pulver med smag af mango og appelsin, som giver dig et tilskud af protein og kulhydrat, når du skal restituere kroppen efter hård, fysisk anstrengelse. Pulveret er baseret på valleprotein uden fedt og tilføjet kollagen. Når kroppens",
         "subCategoryIds": [
-            1
+            1,
+            7
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/Recovery_400g_mockup_redberry.png?v=1712747728",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/recovery-rode-baer-400-g"
     },
     {
-        "id": 52,
+        "id": 55,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Energy Gel Solbær 40 g",
@@ -626,7 +726,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/energy-gel-solbaer-40-g"
     },
     {
-        "id": 53,
+        "id": 56,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Energy Gel Cola 40 g",
@@ -639,7 +739,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/energy-gel-cola-40-g"
     },
     {
-        "id": 54,
+        "id": 57,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Energy Gel Ananas 12x40 g",
@@ -652,7 +752,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/energy-gel-bc-ananas-12-x-40g"
     },
     {
-        "id": 55,
+        "id": 58,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Energy Gel Solbær 12 x 40 g",
@@ -665,7 +765,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/energy-gel-solbaer-12-x-40-g"
     },
     {
-        "id": 56,
+        "id": 59,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Energy Gel Cola 12 x 40 g",
@@ -678,7 +778,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/energy-gel-cola-12x40-g"
     },
     {
-        "id": 57,
+        "id": 60,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Energy Gel Hyldeblomst 40 g",
@@ -691,7 +791,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/energy-gel-hyldeblomst-40-g"
     },
     {
-        "id": 58,
+        "id": 61,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Energy Gel Hyldeblomst 12 x 40 g",
@@ -704,7 +804,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/energy-gel-hyldeblomst-12-x-40-g"
     },
     {
-        "id": 59,
+        "id": 62,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Kreatin Neutral 300 g",
@@ -717,33 +817,34 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/kreatin-300-g"
     },
     {
-        "id": 60,
+        "id": 63,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Pre-Workout PWO Ice Tea Peach 300 g",
         "price": 300.0,
         "description": "Boost din træning med PurePower Pre-Workout pulver i den forfriskende smag af Ice Tea Peach. Pulveret er nemt at dosere, blander sig let og leverer en fantastisk smagsoplevelse, mens det giver dig den nødvendige energi til at nå nye højder i din træning.",
         "subCategoryIds": [
-            4
+            9
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/PWP_Pulver_peach.png?v=1714375831",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/pwo-ice-tea-peach-300-g"
     },
     {
-        "id": 61,
+        "id": 64,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Kreatinkapsler 120 stk.",
         "price": 120.0,
         "description": "Et dagligt indtag på 3 g. kreatin øger den fysiske ydeevne ved gentagne anstrengelser af kortvarig højintensiv træning. Kreatin forekommer naturligt i kroppen og øger den fysiske præstation. Indtag 4 kapsler dagligt.4 kapsler = 3 g kreatin Kosttilskud bør",
         "subCategoryIds": [
-            2
+            2,
+            7
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/Kreatin_kapsler_1.png?v=1715076343",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/kreatinkapsler-120-stk"
     },
     {
-        "id": 62,
+        "id": 65,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Hydro Bottle 650 ml",
@@ -756,7 +857,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/hydro-bottle-650-ml"
     },
     {
-        "id": 63,
+        "id": 66,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Hydro Bottle 800 ml",
@@ -769,7 +870,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/hydro-bottle-800-ml"
     },
     {
-        "id": 64,
+        "id": 67,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Hydro Bottle 975 ml",
@@ -782,33 +883,36 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/hydro-bottle-975-ml"
     },
     {
-        "id": 65,
+        "id": 68,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race Elektrolyt Solbær 1 kg",
         "price": 189.0,
         "description": "Carbo Race Elektrolyt med solbærsmag, ideel til at støtte din udholdenhed under langvarig træning. Denne kulhydrat-elektrolyt-opløsning hjælper med at opretholde præstationen og forbedre væskeoptagelsen. Bestil i dag og fyld din drikkedunk med denne velsm",
         "subCategoryIds": [
-            6
+            6,
+            7,
+            8
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/CarboRaceSolbaer24.png?v=1719234152",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/carbo-race-elektrolyt-solbaer-1-kg"
     },
     {
-        "id": 66,
+        "id": 69,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race Elektrolyt Fersken 1 kg",
         "price": 189.0,
         "description": "Carbo Race Elektrolyt med ferskensmag, perfekt til at opretholde din udholdenhed under længere træning. Denne kulhydrat-elektrolyt-opløsning hjælper dig med at vedligeholde præstationen og øge væskeoptagelsen. Bestil nu for hurtig levering, og fyld din dr",
         "subCategoryIds": [
-            6
+            6,
+            7
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/CarboRaceFersken24.png?v=1719234279",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/carbo-race-elektrolyt-fersken-1-kg"
     },
     {
-        "id": 67,
+        "id": 70,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race Elektrolyt Solbær 50 g",
@@ -821,7 +925,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/carbo-race-elektrolyt-solbaer-50-g"
     },
     {
-        "id": 68,
+        "id": 71,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race Elektrolyt Fersken 50 g",
@@ -837,6 +941,45 @@ export const products: Product[] = [
         "id": 72,
         "retailer": "PurePower",
         "brand": "PurePower",
+        "name": "PurePower Kasket",
+        "price": 149.0,
+        "description": "Gør din træning stilfuld med PurePower's sorte kasket. Den har et klassisk design med PurePower-logo. Ideel til løb, cykling, fitness og hverdagsbrug. Beskyt dit ansigt mod solen og vis din dedikation til sport med stil.",
+        "subCategoryIds": [
+            9
+        ],
+        "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/PP_Cap.png?v=1719910507",
+        "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/purepower-kasket"
+    },
+    {
+        "id": 73,
+        "retailer": "PurePower",
+        "brand": "PurePower",
+        "name": "PurePower Håndklæde",
+        "price": 99.0,
+        "description": "Dette stilrene håndklæde fra PurePower er designet til at opfylde dine behov, hvad enten du er i fitnesscentret, på løbeturen eller blot har brug for et praktisk håndklæde i hverdagen. Materiale: Fremstillet i blødt og slidstærkt bomuld, der sikrer optima",
+        "subCategoryIds": [
+            9
+        ],
+        "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/Towel.png?v=1719910551",
+        "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/purepower-haandklade"
+    },
+    {
+        "id": 74,
+        "retailer": "PurePower",
+        "brand": "PurePower",
+        "name": "PurePower Halsedisse",
+        "price": 79.0,
+        "description": "Beskyt dig mod vind og vejr med PurePower's halsedisse. Lavet af let og åndbart materiale, der holder dig varm og komfortabel. Perfekt til løb, cykling og andre udendørs aktiviteter. Stilfuld og funktionel  -  et must-have til din træningsgarderobe.",
+        "subCategoryIds": [
+            9
+        ],
+        "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/purepower-halsedisse.png?v=1719913093",
+        "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/purepower-halsedisse"
+    },
+    {
+        "id": 75,
+        "retailer": "PurePower",
+        "brand": "PurePower",
         "name": "Hydro Tab Elektrolytter - Mix 10",
         "price": 440.0,
         "description": "Den ultimative Hydro-Elektrolyt-Pakke! - Mix 10 stk. Hydro Tabs! Denne pakke giver dig mulighed for at vælge mellem alle vores smage af Hydro Tabs elektrolytter. OBS: Hydro PLUS er med koffein. Vælg mellem følgende smagsvarianter: Hydro Appelsin Hydro Lem",
@@ -847,46 +990,50 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/hydro-tab-elektrolytter-mix-10"
     },
     {
-        "id": 73,
+        "id": 76,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Pre-Workout PWO Blue Raspberry 300 g",
         "price": 300.0,
         "description": "Få et kraftfuldt energiboost med PurePower Pre-Workout pulver i den friske smag af Blue Raspberry. Det her velsmagende produkt giver dig den ekstra energi, du har brug for til at præstere dit allerbedste, hver gang du træner. PurePower Pre-Workout (PWO) p",
         "subCategoryIds": [
-            4
+            9
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/PWP_Pulver_blue_raspberry.png?v=1724152815",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/pre-workout-pwo-blue-raspberry-300-g"
     },
     {
-        "id": 74,
+        "id": 77,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Protein Snack Kokos 12x50 g",
         "price": 120.0,
         "description": "Giv dig selv en velsmagende belønning efter træningen med PurePower Protein Snack - Kokos. Denne lækre proteinbar kombinerer den eksotiske smag af kokos med et delikat chokoladeovertræk, der minder om en klassisk Bounty-bar, men med den ekstra fordel i fo",
         "subCategoryIds": [
-            5
+            1,
+            5,
+            10
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/Protein_Snack_Kollikasse_Coconut.png?v=1725449538",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/protein-snack-kokos-12x50-g"
     },
     {
-        "id": 75,
+        "id": 78,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Protein Snack Peanut Karamel 12x50 g",
         "price": 120.0,
         "description": "Oplev den perfekte kombination af smag og funktionalitet med PurePower Protein Snack - Peanut Karamel. Denne nye proteinbar leverer en uimodståelig smagsoplevelse med en lækker blanding af cremede peanuts og sød karamel, toppet med et lag lækker chokolade",
         "subCategoryIds": [
-            5
+            1,
+            5,
+            10
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/Protein_Snack_Kollikasse_Peanut_Caramel.png?v=1725449538",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/protein-snack-peanut-karamel-12x50-g"
     },
     {
-        "id": 76,
+        "id": 79,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race Breve - Mix 10",
@@ -899,33 +1046,33 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/carbo-race-og-recovery-breve-mix-10"
     },
     {
-        "id": 77,
+        "id": 80,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Energy Snack Hindbær 60 g",
         "price": 23.0,
         "description": "PurePower Energy Snack er en velsmagende energibar udviklet i Danmark  -  baseret på havre og glukosesirup, som giver både hurtig og vedvarende energi. Vores Energy Snack med hindbær og vanilje kombinerer smagen af friske hindbær med en lækker blød vanilj",
         "subCategoryIds": [
-            7
+            10
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/Energy_Snack_hindbaer_mockup.png?v=1731401904",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/energy-snack-hindbaer-60-g"
     },
     {
-        "id": 78,
+        "id": 81,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Energy Snack Hindbær 12x60 g",
         "price": 276.0,
         "description": "En blanding af friske hindbær og cremet vaniljetopping  -  lyder det ikke bare uimodståeligt? Vores Energy Snack med hindbær og vaniljetopping vil friste dine smagsløg, længe før du tager første bid! Denne energibar giver dig ikke kun en fantastisk smagso",
         "subCategoryIds": [
-            7
+            10
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/Energy_Snack_hindbaer_1200x1200_9a8a0f76-8b83-4f77-a023-e6f77ed6f1c4.png?v=1731402317",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/energy-snack-hindbaer-12x60-g"
     },
     {
-        "id": 79,
+        "id": 82,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Hydro Jordbær/Lime 20 tabs",
@@ -938,7 +1085,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/hydro-jordbaer-lime-20-tabs"
     },
     {
-        "id": 80,
+        "id": 83,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Hydro Sød Grape 20 tabs",
@@ -954,6 +1101,45 @@ export const products: Product[] = [
         "id": 84,
         "retailer": "PurePower",
         "brand": "PurePower",
+        "name": "PurePower Løbebælte",
+        "price": 129.0,
+        "description": "PurePower Løbebælte  -  Praktisk og Funktionelt! Gør dit løb lettere med PurePower Løbebælte  -  et justerbart og let løbebælte designet til både træning og konkurrencer. Bæltet har plads til op til 6 Energigels, så du nemt kan holde energiniveauet oppe u",
+        "subCategoryIds": [
+            7
+        ],
+        "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/Race_Belt.png?v=1732193019",
+        "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/purepower-lobebaelte"
+    },
+    {
+        "id": 85,
+        "retailer": "PurePower",
+        "brand": "PurePower",
+        "name": "PurePower Sportsstrømpe Hvid",
+        "price": 79.0,
+        "description": "Vores hvide sportsstrømper med PurePower-logo er designet til aktive dage. De kombinerer åndbart materiale og en perfekt pasform, der sikrer maksimal komfort  -  uanset om du løber, cykler eller træner.Gør din performance både stilfuld og funktionel",
+        "subCategoryIds": [
+            9
+        ],
+        "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/PP_Sokker.png?v=1732196751",
+        "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/purepower-sportsstrompe"
+    },
+    {
+        "id": 86,
+        "retailer": "PurePower",
+        "brand": "PurePower",
+        "name": "PurePower Sportsstrømpe Hvid",
+        "price": 79.0,
+        "description": "Vores hvide sportsstrømper med PurePower-logo er designet til aktive dage. De kombinerer åndbart materiale og en perfekt pasform, der sikrer maksimal komfort  -  uanset om du løber, cykler eller træner.Gør din performance både stilfuld og funktionel",
+        "subCategoryIds": [
+            9
+        ],
+        "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/PP_Sokker.png?v=1732196751",
+        "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/purepower-sportsstrompe"
+    },
+    {
+        "id": 87,
+        "retailer": "PurePower",
+        "brand": "PurePower",
         "name": "Hydro Tab Elektrolytter - Mix 20",
         "price": 770.0,
         "description": "Den ultimative Hydro-Elektrolyt-Pakke! - Mix 20 stk. Hydro Tabs! Denne pakke giver dig mulighed for at vælge mellem alle vores smage af Hydro Tabs elektrolytter. OBS: Hydro PLUS er med koffein. Vælg mellem følgende smagsvarianter: Hydro Appelsin Hydro Jor",
@@ -964,20 +1150,21 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/hydro-tab-elektrolytter-mix-20"
     },
     {
-        "id": 85,
+        "id": 88,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race Energy Orange/Lime 330 ml",
         "price": 17.5,
         "description": "Boost din præstation med Carbo Race Energy Orange/Lime  -  skabt til dig, der dyrker udholdenhedssport som løb og cykling eller krævende sportsgrene som padel. Denne ready-to-drink energidrik kombinerer hurtigtoptagelige kulhydrater og elektrolyt for at g",
         "subCategoryIds": [
-            6
+            6,
+            7
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/CR_Energy_drink_Orange_lime.png?v=1733824192",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/carbo-race-energy-orange-lime-330-ml"
     },
     {
-        "id": 86,
+        "id": 89,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race Energy Raspberry 330 ml",
@@ -990,7 +1177,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/carbo-race-energy-raspberry-330-ml"
     },
     {
-        "id": 87,
+        "id": 90,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Clear Protein Drink Appelsin/Mango 400 g",
@@ -1003,7 +1190,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/clear-protein-drink-appelsin-mango-400-g"
     },
     {
-        "id": 88,
+        "id": 91,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Clear Protein Drink Røde Bær 400 g",
@@ -1016,7 +1203,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/clear-protein-drink-rode-baer-400-g"
     },
     {
-        "id": 89,
+        "id": 92,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Kreatin Ananas 300 g",
@@ -1029,7 +1216,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/kreatin-ananas-300-g"
     },
     {
-        "id": 90,
+        "id": 93,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Kreatin Cola 300 g",
@@ -1042,7 +1229,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/kreatin-cola-300-g"
     },
     {
-        "id": 91,
+        "id": 94,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Kreatin Vingummi Cola/Lime 120 stk.",
@@ -1055,59 +1242,61 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/kreatin-vingummi-cola-lime-120-stk"
     },
     {
-        "id": 92,
+        "id": 95,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race Energy Raspberry 330 ml",
         "price": 11.5,
         "description": "Få det maksimale ud af din træning og konkurrence med Carbo Race Energy Raspberry  -  den ideelle ready-to-drink energidrik til både udholdenhedssport og sportsgrene som padel. Med en perfekt balance mellem kulhydrater og elektrolyt sikrer drikken hurtig",
         "subCategoryIds": [
-            7
+            6
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/CR_Energy_drink_Raspberry.png?v=1733405439",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/carbo-race-energy-raspberry-330-ml-1"
     },
     {
-        "id": 93,
+        "id": 96,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race Energy Orange/Lime 330 ml",
         "price": 11.5,
         "description": "Boost din præstation med Carbo Race Energy Orange/Lime  -  skabt til dig, der dyrker udholdenhedssport som løb og cykling eller krævende sportsgrene som padel. Denne ready-to-drink energidrik kombinerer hurtigtoptagelige kulhydrater og elektrolyt for at g",
         "subCategoryIds": [
+            6,
             7
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/CR_Energy_drink_Orange_lime.png?v=1733824192",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/carbo-race-energy-orange-lime-330-ml-1"
     },
     {
-        "id": 94,
+        "id": 97,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race Energy Orange/Lime 12x330 ml",
         "price": 95.0,
         "description": "Boost din præstation med Carbo Race Energy Orange/Lime  -  skabt til dig, der dyrker udholdenhedssport som løb og cykling eller krævende sportsgrene som padel. Denne ready-to-drink energidrik kombinerer hurtigtoptagelige kulhydrater og elektrolyt for at g",
         "subCategoryIds": [
+            6,
             7
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/CR_Energy_Displaybox_orange_lime_stor.png?v=1733824192",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/carbo-race-energy-orange-lime-12x330-ml-1"
     },
     {
-        "id": 95,
+        "id": 98,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race Energy Hindbær 12x330 ml",
         "price": 95.0,
         "description": "Få det maksimale ud af din træning og konkurrence med Carbo Race Energy Raspberry  -  den ideelle ready-to-drink energidrik til både udholdenhedssport og sportsgrene som padel. Med en perfekt balance mellem kulhydrater og elektrolyt sikrer drikken hurtig",
         "subCategoryIds": [
-            7
+            6
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/CR_Energy_Displaybox_Raspberry_stor.png?v=1733824168",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/carbo-race-energy-hindbaer-12x330-ml"
     },
     {
-        "id": 96,
+        "id": 99,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Hydro Lemon/Lime 20 tabs",
@@ -1120,7 +1309,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/hydro-lemon-lime-20-tabs"
     },
     {
-        "id": 97,
+        "id": 100,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Drikkeflaske eller Shaker - Mix 2",
@@ -1133,33 +1322,33 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/drikkeflaske-eller-shaker-mix-2-stk"
     },
     {
-        "id": 98,
+        "id": 101,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Race Pack - Mix",
         "price": 299.0,
         "description": "Uanset om du kæmper mod uret eller dine konkurrenter, er den rette energi afgørende for din præstation. Vores Race Pack er sammensat til at give dig den optimale kombination af hurtig og vedvarende energi, så du kan holde tempoet hele vejen til målstregen",
         "subCategoryIds": [
-            7
+            9
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/RacePack25.png?v=1742467063",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/race-mix-pack"
     },
     {
-        "id": 99,
+        "id": 102,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Marathon Pack - Mix",
         "price": 299.0,
         "description": "Når du løber et marathon, handler det ikke kun om benene  -  det handler også om at have den rette energi hele vejen til målstregen. Vores Marathon Mix Pack er skræddersyet til at give dig den perfekte balance af hurtig og vedvarende energi, så du kan yde",
         "subCategoryIds": [
-            7
+            9
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/MarathonPack25.png?v=1742465303",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/marathon-mix-pack"
     },
     {
-        "id": 100,
+        "id": 103,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Pre Workout Shot (PWO) Cola/Lime 60 ml",
@@ -1172,7 +1361,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/pwo-shot-cola-lime-60-ml"
     },
     {
-        "id": 101,
+        "id": 104,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Pre Workout Shot (PWO) Røde bær 60 ml",
@@ -1185,7 +1374,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/pwo-rode-bor-60-ml"
     },
     {
-        "id": 102,
+        "id": 105,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Dextrose Bites Cola",
@@ -1198,7 +1387,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/dextrose-bites-cola"
     },
     {
-        "id": 103,
+        "id": 106,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Dextrose Bites Lime",
@@ -1211,20 +1400,21 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/dextrose-lemon-bites"
     },
     {
-        "id": 104,
+        "id": 107,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Recovery Hindbær/Appelsin 400 g",
         "price": 149.0,
         "description": "PurePower Recovery er pulver med smag af hindbær og appelsin, som giver dig et tilskud af protein og kulhydrat, når du skal restituere kroppen efter hård, fysisk anstrengelse. Pulveret er baseret på valleprotein uden fedt og tilføjet kollagen. Når kroppen",
         "subCategoryIds": [
-            1
+            1,
+            7
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/Recovery_400g_mockup_raspberry_orange.png?v=1744349982",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/recovery-hindbaer-appelsin"
     },
     {
-        "id": 105,
+        "id": 108,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Pre Workout Shot (PWO) Røde bær 12 x 60 ml",
@@ -1237,7 +1427,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/pre-workout-shot-rode-baer-12-x-60-ml"
     },
     {
-        "id": 106,
+        "id": 109,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Pre Workout Shot (PWO) Cola/Lime 12 x 60 ml",
@@ -1250,98 +1440,124 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/pre-workout-shot-cola-lime-12-x-60-ml"
     },
     {
-        "id": 107,
+        "id": 110,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race Elektrolyt Solbær 12 x 50 g",
         "price": 276.0,
         "description": "Carbo Race Elektrolyt  -  12 x 50 gKulhydrat-elektrolytdrik til udholdenhed, energi og væskebalance Carbo Race Elektrolyt er et velsmagende energipulver, der blandes med vand og drikkes før og under langvarig fysisk aktivitet. Pulveret giver dig hurtigt t",
         "subCategoryIds": [
-            7
+            6
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/CarboRace_Sachet_Display.png?v=1746083243",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/carbo-race-elektrolyt-solbaer-12-x-50-g"
     },
     {
-        "id": 108,
+        "id": 111,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race Elektrolyt Fersken 12 x 50 g",
         "price": 276.0,
         "description": "Carbo Race Elektrolyt  -  12 x 50 gKulhydrat-elektrolytdrik til udholdenhed, energi og væskebalance Carbo Race Elektrolyt er et velsmagende energipulver, der blandes med vand og drikkes før og under langvarig fysisk aktivitet. Pulveret giver dig hurtigt t",
         "subCategoryIds": [
-            7
+            6
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/CarboRace_Sachet_Display.png?v=1746083243",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/carbo-race-elektrolyt-fersken-12-x-50-g"
     },
     {
-        "id": 109,
+        "id": 112,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race Elektrolyt Hindbær 12 x 50 g",
         "price": 276.0,
         "description": "Carbo Race Elektrolyt  -  12 x 50 gKulhydrat-elektrolytdrik til udholdenhed, energi og væskebalance Carbo Race Elektrolyt er et velsmagende energipulver, der blandes med vand og drikkes før og under langvarig fysisk aktivitet. Pulveret giver dig hurtigt t",
         "subCategoryIds": [
-            7
+            6
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/CarboRace_Sachet_Display.png?v=1746083243",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/carbo-race-elektrolyt-hindbaer-12-x-50-g"
     },
     {
-        "id": 110,
+        "id": 113,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race Elektrolyt Blåbær 12 x 50 g",
         "price": 276.0,
         "description": "Carbo Race Elektrolyt  -  12 x 50 gKulhydrat-elektrolytdrik til udholdenhed, energi og væskebalance Carbo Race Elektrolyt er et velsmagende energipulver, der blandes med vand og drikkes før og under langvarig fysisk aktivitet. Pulveret giver dig hurtigt t",
         "subCategoryIds": [
-            7
+            6
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/CarboRace_Sachet_Display.png?v=1746083243",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/carbo-race-elektrolyt-blabaer-12-x-50-g"
     },
     {
-        "id": 111,
+        "id": 114,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race Elektrolyt  Hyldeblomst 12 x 50 g",
         "price": 276.0,
         "description": "Carbo Race Elektrolyt  -  12 x 50 gKulhydrat-elektrolytdrik til udholdenhed, energi og væskebalance Carbo Race Elektrolyt er et velsmagende energipulver, der blandes med vand og drikkes før og under langvarig fysisk aktivitet. Pulveret giver dig hurtigt t",
         "subCategoryIds": [
-            7
+            6
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/CarboRace_Sachet_Display.png?v=1746083243",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/carbo-race-elektrolyt-hyldeblomst-12-x-50-g"
     },
     {
-        "id": 112,
+        "id": 115,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race Elektrolyt Appelsin 12 x 50 g",
         "price": 276.0,
         "description": "Carbo Race Elektrolyt  -  12 x 50 gKulhydrat-elektrolytdrik til udholdenhed, energi og væskebalance Carbo Race Elektrolyt er et velsmagende energipulver, der blandes med vand og drikkes før og under langvarig fysisk aktivitet. Pulveret giver dig hurtigt t",
         "subCategoryIds": [
-            7
+            6
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/CarboRace_Sachet_Display.png?v=1746083243",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/carbo-race-elektrolyt-appelsin-12-x-50-g"
     },
     {
-        "id": 113,
+        "id": 116,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race Elektrolyt Citrus 12 x 50 g",
         "price": 276.0,
         "description": "Carbo Race Elektrolyt  -  12 x 50 gKulhydrat-elektrolytdrik til udholdenhed, energi og væskebalance Carbo Race Elektrolyt med citrus er et velsmagende energipulver, der blandes med vand og drikkes før og under langvarig fysisk aktivitet. Pulveret giver di",
         "subCategoryIds": [
-            7
+            6
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/CarboRace_Sachet_Display.png?v=1746083243",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/carbo-race-elektrolyt-citrus-12-x-50-g"
     },
     {
-        "id": 116,
+        "id": 117,
+        "retailer": "PurePower",
+        "brand": "PurePower",
+        "name": "Dextrose Bites Lime 12 x 14 stk.",
+        "price": 240.0,
+        "description": "Dextrose Bites Lime giver dig ren, hurtig energi med en forfriskende citrus-twist. Hver tablet er baseret på dextrose  -  en hurtigtoptagelig glukoseform, som giver kroppen et let tilgængeligt energitilskud. Perfekt før højintens træning, mellem hårde int",
+        "subCategoryIds": [
+            7
+        ],
+        "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/Dextrose_kolli_LIME_low.png?v=1747891906",
+        "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/dextrose-bites-lime-12x14"
+    },
+    {
+        "id": 118,
+        "retailer": "PurePower",
+        "brand": "PurePower",
+        "name": "Dextrose Bites Cola 12 x 14 stk.",
+        "price": 240.0,
+        "description": "Dextrose Bites cola giver dig ren, hurtig energi med en forfriskende citrus-twist. Hver tablet er baseret på dextrose  -  en hurtigtoptagelig glukoseform, som giver kroppen et let tilgængeligt energitilskud. Perfekt før højintens træning, mellem hårde int",
+        "subCategoryIds": [
+            7
+        ],
+        "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/Dextrose_Kolli_COLA_low.png?v=1747891800",
+        "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/dextrose-cola-bites-12x14"
+    },
+    {
+        "id": 119,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Energy Gel Koffein Hindbær 40 g",
@@ -1354,7 +1570,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/energy-gel-koffein-hindbaer-40-g"
     },
     {
-        "id": 117,
+        "id": 120,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Energy Gel Koffein Appelsin 40 g",
@@ -1367,7 +1583,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/energy-gel-koffein-appelsin-40-g"
     },
     {
-        "id": 118,
+        "id": 121,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Energy Gel Koffein Jordbær/Lime 40 g",
@@ -1380,7 +1596,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/energy-gel-koffein-jordbaer-lime-40-g"
     },
     {
-        "id": 119,
+        "id": 122,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Energy Gel Koffein Røde Bær 40 g",
@@ -1393,7 +1609,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/energy-gel-koffein-rode-baer-40-g"
     },
     {
-        "id": 120,
+        "id": 123,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Energy Gel Koffein Røde Bær 12 x 40 g",
@@ -1406,7 +1622,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/energy-gel-koffein-rode-baer-12-x-40-g"
     },
     {
-        "id": 121,
+        "id": 124,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Energy Gel Koffein Jordbær/Lime 12 x 40 g",
@@ -1419,7 +1635,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/energy-gel-koffein-jordbaer-lime-12-x-40-g"
     },
     {
-        "id": 122,
+        "id": 125,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Energy Gel Koffein Appelsin 12 x 40 g",
@@ -1432,7 +1648,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/energy-gel-koffein-appelsin-12-x-40-g"
     },
     {
-        "id": 123,
+        "id": 126,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Energy Gel Koffein Hindbær 12 x 40 g",
@@ -1445,7 +1661,33 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/energy-gel-koffein-hindbaer-12-x-40-g"
     },
     {
-        "id": 126,
+        "id": 127,
+        "retailer": "PurePower",
+        "brand": "PurePower",
+        "name": "Summer Pack - Mix",
+        "price": 195.0,
+        "description": "###BESKRVELSE&&& Gør dig klar til sommerens træningspas og eventyr med vores Summer Pack  -  en perfekt blanding af energi, smag og variation: Indeholder: 1 x Hydro Tabs (valgfri smag)  -  elektrolytter til optimal væskebalance 2 x Carbo Race breve (valgf",
+        "subCategoryIds": [
+            6
+        ],
+        "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/SummerPack25.png?v=1750936498",
+        "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/summer-pack-mix"
+    },
+    {
+        "id": 128,
+        "retailer": "PurePower",
+        "brand": "PurePower",
+        "name": "Bat Boys Padel - Mix",
+        "price": 318.0,
+        "description": "I samarbejde med Bat Boys Padel Podcast har vi sammensat en eksklusiv energipakke til dig, der spiller padel og gerne vil have hurtig energi og optimal hydrering lige ved hånden. Pakken indeholder alt, hvad du har brug for før, under og efter kamp. Det få",
+        "subCategoryIds": [
+            9
+        ],
+        "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/BatBoysPadelpakke.png?v=1751288746",
+        "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/bat-boys-padel-mix"
+    },
+    {
+        "id": 129,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Energy Gel - Sample Mix",
@@ -1458,20 +1700,20 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/energy-gel-sample-mix"
     },
     {
-        "id": 127,
+        "id": 130,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race - Mix 5",
         "price": 614.25,
         "description": "Carbo Race Elektrolyt Mix 5 Med Carbo Race Mix 5 får du 5 poser valgfrit energipulver, nok til ca. 80 portioner.Pulveret er let at blande og velegnet før og under træning, både til løb, cykling og andre udholdenhedssportsgrene. Du vælger selv mellem vores",
         "subCategoryIds": [
-            7
+            6
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/Artboard1copy4_2.png?v=1756199205",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/carbo-race-mix-5"
     },
     {
-        "id": 128,
+        "id": 131,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Recovery og Protein - Mix 3",
@@ -1484,20 +1726,21 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/recovery-og-protein-mix-3"
     },
     {
-        "id": 129,
+        "id": 132,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Energy Snack - Sample Mix",
         "price": 161.0,
         "description": "Vil du finde din favorit? Med vores Energy Snack  -  Sample Mix får du en lækker smagsprøve på hele udvalget af vores energibarer. Perfekt til dig, der vil teste forskellige varianter, før du finder din faste favorit til træning, konkurrence eller som et",
         "subCategoryIds": [
-            7
+            5,
+            10
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/ESsamplemix.png?v=1754912304",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/energy-snack-sample-mix"
     },
     {
-        "id": 148,
+        "id": 133,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Kreatin Value Pack 5 x 300 g",
@@ -1510,7 +1753,33 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/value-kreatin-neutral"
     },
     {
-        "id": 153,
+        "id": 134,
+        "retailer": "PurePower",
+        "brand": "PurePower",
+        "name": "Race String Bag",
+        "price": 79.0,
+        "description": "PurePower Race String Bag med lynlås.En enkel og funktionel taske, der gør det nemt at have din sportsernæring og træningsudstyr med på farten. Gymnastikposen er lavet i slidstærkt materiale og har en praktisk lynlåslomme foran, så du hurtigt kan få fat i",
+        "subCategoryIds": [
+            9
+        ],
+        "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/stringbag2.png?v=1758113957",
+        "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/gymnastikpose-m-lynlas"
+    },
+    {
+        "id": 135,
+        "retailer": "PurePower",
+        "brand": "PurePower",
+        "name": "Bestseller pakken",
+        "price": 129.0,
+        "description": "Bestseller-pakken  -  vores mest populære produkter samlet ð Kun 129 kr. (værdi 317 kr.)â¡ Begrænset antal  -  udsolgt = væk Vil du opleve, hvorfor tusindvis af danske atleter vælger os?Med Bestseller-pakken får du et komplet udvalg af vores bedst sæl",
+        "subCategoryIds": [
+            9
+        ],
+        "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/nano-banana-2025-09-22T07-17-16_9c9ba0c4-f3a2-4fd5-bfe3-570462985cea.png?v=1758525563",
+        "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/bestseller-pakken"
+    },
+    {
+        "id": 136,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race - Mix 3",
@@ -1523,7 +1792,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/carbo-race-mix-4"
     },
     {
-        "id": 154,
+        "id": 137,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race - Mix 3",
@@ -1536,7 +1805,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/carbo-race-mix-4"
     },
     {
-        "id": 155,
+        "id": 138,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race - Mix 3",
@@ -1549,7 +1818,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/carbo-race-mix-4"
     },
     {
-        "id": 156,
+        "id": 139,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Hydro elektrolytter - Mix 5",
@@ -1562,7 +1831,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/hydro-elektrolytter-mix-6"
     },
     {
-        "id": 157,
+        "id": 140,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race - Mix 3",
@@ -1575,7 +1844,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/carbo-race-mix-4"
     },
     {
-        "id": 158,
+        "id": 141,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race - Mix 3",
@@ -1588,7 +1857,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/carbo-race-mix-4"
     },
     {
-        "id": 159,
+        "id": 142,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race - Mix 3",
@@ -1601,7 +1870,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/carbo-race-mix-4"
     },
     {
-        "id": 160,
+        "id": 143,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race - Mix 3",
@@ -1614,7 +1883,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/carbo-race-mix-4"
     },
     {
-        "id": 161,
+        "id": 144,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race - Mix 3",
@@ -1627,7 +1896,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/carbo-race-mix-4"
     },
     {
-        "id": 162,
+        "id": 145,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race - Mix 3",
@@ -1640,7 +1909,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/carbo-race-mix-4"
     },
     {
-        "id": 166,
+        "id": 146,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race - Mix 3",
@@ -1653,7 +1922,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/carbo-race-mix-4"
     },
     {
-        "id": 167,
+        "id": 147,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race - Mix 3",
@@ -1666,7 +1935,7 @@ export const products: Product[] = [
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/carbo-race-mix-4"
     },
     {
-        "id": 168,
+        "id": 148,
         "retailer": "PurePower",
         "brand": "PurePower",
         "name": "Carbo Race - Mix 3",
@@ -1677,44 +1946,5 @@ export const products: Product[] = [
         ],
         "image": "https://cdn.shopify.com/s/files/1/0845/6113/3885/files/Artboard1copy5_6c012218-9653-4825-8bf6-508c38d3bc62.png?v=1754910220",
         "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=52415&partnerid=55316&htmlurl=https://www.purepower.dk/products/carbo-race-mix-4"
-    },
-        {
-        "id": 169,
-        "retailer": "Gummi Gainz",
-        "brand": "GummiGainz",
-        "name": "Creatine Gummies - Strawberry",
-        "price": 199.95,
-        "description": "Prøv vores velsmagende kreatin vingummier, der indeholder hele 3000 mg kreatinmonohydrat. De er designet til at hjælpe dig med at yde mere, opbygge muskler og blive stærkere. Det er en nem og lækker måde at tage dit træningspotentiale til næste niveau",
-        "subCategoryIds": [
-            2
-        ],
-        "image": "https://cdn.shopify.com/s/files/1/0703/7200/0008/files/creatine-gummieskreatin-720016.jpg?v=1731834604",
-        "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=113761&partnerid=55316&htmlurl=https://gummigainz.dk/products/creatine-gummies?variant=45107480428808"
-    },
-    {
-        "id": 170,
-        "retailer": "Gummi Gainz",
-        "brand": "GummiGainz",
-        "name": "Creatine Gummies - Green apple",
-        "price": 199.95,
-        "description": "Prøv vores velsmagende kreatin vingummier, der indeholder hele 3000 mg kreatinmonohydrat. De er designet til at hjælpe dig med at yde mere, opbygge muskler og blive stærkere. Det er en nem og lækker måde at tage dit træningspotentiale til næste niveau",
-        "subCategoryIds": [
-            2
-        ],
-        "image": "https://cdn.shopify.com/s/files/1/0703/7200/0008/files/creatine-gummieskreatin-674896.jpg?v=1731834604",
-        "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=113761&partnerid=55316&htmlurl=https://gummigainz.dk/products/creatine-gummies?variant=44964112433416"
-    },
-        {
-        "id": 171,
-        "retailer": "Jeyafit",
-        "brand": "Jeyafit",
-        "name": "Kreatin Monohydrat Vingummier",
-        "price": 219.0,
-        "description": "Kreatin  Er et naturligt stof, som kroppen selv producerer i små mængder, og et af de mest veldokumenterede kosttilskud til øget fysisk præstation. Hver dagsdosis (2 vingummier) indeholder 3000 mg kreatin monohydrat, som bidrager til forbedret fysisk ydee",
-        "subCategoryIds": [
-            2
-        ],
-        "image": "https://cdn.shopify.com/s/files/1/0896/5036/4749/files/1_7bec2dff-43b4-447c-acf8-1223b9b44d3c.jpg?v=1747316060",
-        "url": "https://www.partner-ads.com/dk/klikbanner.php?bannerid=114949&partnerid=55316&htmlurl=https://jeyafit.dk/products/jeyafit-kreatin-gummies?variant=51659771478349"
     }
 ];
