@@ -24,5 +24,5 @@
 		categories={muskelopbygningSubCategories}
 	/>
 
-	<Products products={muskelopbygningProducts} title="Muskelopbygning Produkter" />
+	<Products products={muskelopbygningProducts} title="muskelopbyggende Produkter" />
 </main>

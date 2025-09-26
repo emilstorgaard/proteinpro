@@ -43,7 +43,7 @@
 
 						<div class="space-y-4">
 							<p class="text-lg leading-relaxed text-gray-800">
-								{product.description}..
+								{product.description}...
 							</p>
 							<p class="text-sm text-gray-600">
 								Flere informationer hos:
