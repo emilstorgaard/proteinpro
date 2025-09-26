@@ -13,14 +13,12 @@
 <header class="sticky top-0 z-50 bg-white/80 shadow-md backdrop-blur-md">
 	<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 		<div class="flex h-20 items-center justify-between">
-			<!-- Logo -->
 			<div class="flex-shrink-0">
 				<a href="/">
 					<img src="/favicon.png" alt="BodyUp Logo" class="h-30 w-auto" />
 				</a>
 			</div>
 
-			<!-- Desktop Nav -->
 			<nav class="hidden space-x-8 md:flex">
 				{#each categories as category, i}
 					<div class="group relative">
@@ -34,7 +32,6 @@
 							></span>
 						</a>
 
-						<!-- Dropdown -->
 						<div
 							class="invisible absolute z-20 mt-3 w-56 origin-top rounded-xl border border-gray-100 bg-white p-2 opacity-0 shadow-lg ring-1 ring-black/5 transition-all duration-200 ease-out group-hover:visible group-hover:translate-y-1 group-hover:opacity-100
           {i > categories.length - 3 ? 'right-0 left-auto' : 'left-0'}"
@@ -52,7 +49,6 @@
 				{/each}
 			</nav>
 
-			<!-- Mobile Menu Button -->
 			<div class="md:hidden">
 				<button
 					on:click={() => (mobileMenuOpen = !mobileMenuOpen)}
@@ -68,7 +64,6 @@
 		</div>
 	</div>
 
-	<!-- Mobile Nav -->
 	{#if mobileMenuOpen}
 		<nav class="border-t bg-white/95 shadow-lg backdrop-blur-md md:hidden">
 			{#each categories as category}

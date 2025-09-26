@@ -12,7 +12,6 @@
 				class="h-[250px] w-full object-contain sm:h-[300px] lg:h-[350px]"
 			/>
 
-			<!-- Product info -->
 			<div
 				class="mx-auto max-w-2xl px-4 pt-10 pb-16 sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-3 lg:grid-rows-[auto_auto_1fr] lg:gap-x-8 lg:px-8 lg:pt-16 lg:pb-24"
 			>

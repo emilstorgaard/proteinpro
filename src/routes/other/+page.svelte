@@ -23,6 +23,5 @@
 		text="Udforsk vores produkter som ikke er kategoriseret under de primære kategorier"
 	/>
 
-	<!-- Products Section -->
 	<Products products={otherProducts} title="Andre Produkter" />
 </main>

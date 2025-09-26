@@ -24,6 +24,5 @@
 		categories={muskelopbygningSubCategories}
 	/>
 
-	<!-- Products Section -->
 	<Products products={muskelopbygningProducts} title="Muskelopbygning Produkter" />
 </main>
