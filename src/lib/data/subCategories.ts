@@ -34,7 +34,7 @@ export const subCategories: SubCategory[] = [
         name: "Proteinbarer",
         categoryIds: [1, 2],
         url: "/proteinbarer",
-        image: "/proteinbar.jpg",
+        image: "/proteinbar.png",
     },
     {
         id: 6,
