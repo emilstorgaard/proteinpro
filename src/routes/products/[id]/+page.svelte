@@ -41,8 +41,21 @@
 					<div>
 						<h3 class="sr-only">Beskrivelse</h3>
 
-						<div class="space-y-6">
-							<p class="text-base text-gray-900">{product.description}</p>
+						<div class="space-y-4">
+							<p class="text-lg leading-relaxed text-gray-800">
+								{product.description}..
+							</p>
+							<p class="text-sm text-gray-600">
+								Flere informationer hos:
+								<a
+									href={product.url}
+									target="_blank"
+									rel="noopener noreferrer"
+									class="font-medium text-blue-600 underline underline-offset-2 hover:text-blue-700"
+								>
+									{product.retailer}
+								</a>
+							</p>
 						</div>
 					</div>
 				</div>
