@@ -3,44 +3,53 @@
 	const { product } = data;
 </script>
 
-<main class="bg-gray-50">
-	<div class="relative z-10 mx-auto max-w-3xl text-center">
-		<div class="mx-auto max-w-7xl p-4 sm:p-6 lg:p-8">
-			{#if product}
-				<div class="flex flex-col gap-8 lg:flex-row lg:items-start">
-					<figure class="flex-1">
-						<img
-							src={product.image}
-							alt={product.name}
-							class="w-full rounded-xl object-cover shadow-lg"
-							loading="lazy"
-						/>
-					</figure>
+<main class="min-h-screen bg-gray-50">
+	<section class="mx-auto max-w-6xl px-3 sm:px-4 lg:px-6">
+		{#if product}
+			<img
+				src={product.image}
+				alt={product.name}
+				class="h-[250px] w-full object-contain sm:h-[300px] lg:h-[350px]"
+			/>
 
-					<div class="flex flex-1 flex-col justify-between">
-						<header>
-							<h1 class="mb-3 text-3xl font-bold tracking-tight sm:text-4xl">{product.name}</h1>
-							<p class="mb-4 leading-relaxed text-gray-700">{product.description}</p>
-							<p class="mb-6 text-2xl font-semibold text-gray-900">
-								{product.price.toFixed(2)} kr.
-							</p>
-						</header>
+			<!-- Product info -->
+			<div
+				class="mx-auto max-w-2xl px-4 pt-10 pb-16 sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-3 lg:grid-rows-[auto_auto_1fr] lg:gap-x-8 lg:px-8 lg:pt-16 lg:pb-24"
+			>
+				<div class="lg:col-span-2 lg:border-r lg:border-gray-200 lg:pr-8">
+					<h1 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
+						{product.name}
+					</h1>
+				</div>
 
-						<div>
-							<a
-								href={product.url}
-								target="_blank"
-								rel="nofollow noopener"
-								class="inline-block rounded-lg bg-blue-600 px-6 py-3 text-base font-medium text-white shadow-md transition hover:bg-blue-700 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:outline-none"
-							>
-								Køb nu
-							</a>
+				<div class="mt-4 lg:row-span-3 lg:mt-0">
+					<h2 class="sr-only">Produkt information</h2>
+					<p class="text-3xl tracking-tight text-gray-900">{product.price} kr</p>
+
+					<a
+						href={product.url}
+						target="_blank"
+						rel="nofollow noopener"
+						class="mt-10 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:outline-hidden"
+					>
+						Køb nu
+					</a>
+				</div>
+
+				<div
+					class="py-10 lg:col-span-2 lg:col-start-1 lg:border-r lg:border-gray-200 lg:pt-6 lg:pr-8 lg:pb-16"
+				>
+					<div>
+						<h3 class="sr-only">Beskrivelse</h3>
+
+						<div class="space-y-6">
+							<p class="text-base text-gray-900">{product.description}</p>
 						</div>
 					</div>
 				</div>
-			{:else}
-				<p class="text-center text-gray-500">Produktet blev ikke fundet.</p>
-			{/if}
-		</div>
-	</div>
+			</div>
+		{:else}
+			<p class="text-center text-gray-500">Produktet blev ikke fundet.</p>
+		{/if}
+	</section>
 </main>
