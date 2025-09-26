@@ -21,7 +21,6 @@
 	<Hero
 		title="Muskelopbygning"
 		text="Udforsk vores udvalg af kosttilskud til styrke og muskelvækst"
-		backgroundImage="/muskelopbygning.png"
 		categories={muskelopbygningSubCategories}
 	/>
 

@@ -21,7 +21,6 @@
 	<Hero
 		title="Andet"
 		text="Udforsk vores produkter som ikke er kategoriseret under de primære kategorier"
-		backgroundImage="/other.png"
 	/>
 
 	<!-- Products Section -->

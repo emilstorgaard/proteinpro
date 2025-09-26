@@ -17,7 +17,6 @@
                 Det indeholder typisk koffein, aminosyrer og andre ingredienser, som hjælper dig med at yde dit bedste under intense træningspas.
                 Pre-Workout er perfekt til dem, der vil have mere kraft, bedre koncentration og højere intensitet i deres træning.
                 Det kan blandes med vand som en shake og tages ca. 20–30 minutter før træning."
-		backgroundImage="/pre-workout.jpg"
 	/>
 
 	<Products products={preWorkoutProducts} title="Pre workout" />

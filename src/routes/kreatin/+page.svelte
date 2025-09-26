@@ -17,7 +17,6 @@
 				praktisk måde at sikre optimal mængde på.
 				Det er videnskabeligt dokumenteret, sikkert for de fleste voksne, og kan
 				kombineres med proteinpulver for maksimal muskelvækst og restitution."
-		backgroundImage="/kreatin.jpg"
 	/>
 
 	<Products products={kreatinProducts} title="Kreatin" />

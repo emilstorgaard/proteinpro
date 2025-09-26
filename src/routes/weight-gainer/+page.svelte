@@ -20,7 +20,6 @@
 				mad, f.eks. hurtigt stofskifte eller intensiv træning. Weight Gainer kan blandes i shakes,
 				smoothies eller endda i madopskrifter, så det bliver nemt at få de nødvendige kalorier og
 				proteiner."
-		backgroundImage="/weight-gainer.jpg"
 	/>
 
 	<Products products={weightGainerProducts} title="Weight gainer" />

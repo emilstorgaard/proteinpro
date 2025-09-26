@@ -18,7 +18,6 @@
 				De er især vigtige under og efter træning, når du sveder og mister salte, og kan
 				hjælpe med at forebygge kramper, træthed og dehydrering. Elektrolytter fås som pulver,
 				tabletter eller drikke, og er en enkel måde at sikre optimal væskebalance på."
-		backgroundImage="/elektrolytter.png"
 	/>
 
 	<Products products={elektrolytterProducts} title="Elektrolytter" />

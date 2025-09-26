@@ -15,7 +15,7 @@
 					<img
 						src={category.image}
 						alt={category.name}
-						class="h-32 w-full object-cover sm:h-36 md:h-40"
+						class="h-32 w-full rounded-t-lg object-contain bg-gray-100"
 					/>
 					<div class="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent"></div>
 				</div>

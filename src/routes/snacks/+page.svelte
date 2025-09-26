@@ -19,7 +19,6 @@
 				Proteinbarer indeholder typisk en blanding af protein, kulhydrater og lidt fedt,
 				og findes i mange smagsvarianter, så det bliver både sundt og lækkert. De understøtter
 				muskelopbygning, restitution og hjælper dig med at nå dit daglige proteinbehov."
-		backgroundImage="/snacks.png"
 	/>
 
 	<Products products={snacksProducts} title="Snacks" />

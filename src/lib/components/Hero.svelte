@@ -4,21 +4,13 @@
 
 	export let title: string;
 	export let text: string;
-	export let backgroundImage: string | null = null;
 	export let categories: Category[] = [];
 </script>
 
 <section class="relative flex flex-col items-center justify-center py-10 text-center">
 	<!-- Baggrund / Gradient -->
-	{#if backgroundImage}
-		<div
-			class="absolute inset-0 bg-cover bg-center"
-			style="background-image: url({backgroundImage});"
-		></div>
-		<div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/40 to-transparent"></div>
-	{:else}
-		<div class="absolute inset-0 bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400"></div>
-	{/if}
+
+	<div class="absolute inset-0 bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400"></div>
 
 	<!-- Hero Content -->
 	<div class="relative z-10 mx-auto max-w-3xl px-6 text-center">

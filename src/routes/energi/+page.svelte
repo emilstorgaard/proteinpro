@@ -18,7 +18,6 @@
 	<Hero
 		title="Energi"
 		text="Udforsk vores udvalg af energigivende kosttilskud"
-		backgroundImage="/energy.png"
 		categories={energySubCategories}
 	/>
 

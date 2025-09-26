@@ -18,7 +18,6 @@
 	<Hero
 		title="Mad & Snacks"
 		text="Udforsk vores udvalg af sunde og lækre mad- og snackprodukter"
-		backgroundImage="/foodAndSnacks.png"
 		categories={foodAndSnacksSubCategories}
 	/>
 

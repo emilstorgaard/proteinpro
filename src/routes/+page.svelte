@@ -9,7 +9,6 @@
 	<Hero
 		title="BodyUp"
 		text="Din partner indenfor kosttilskud, energi og sundhed. Kvalitet og resultater til dig."
-		backgroundImage="/background.jpg"
 		{categories}
 	/>
 
