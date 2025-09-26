@@ -59,10 +59,10 @@ export const subCategories: SubCategory[] = [
     },
     {
         id: 9,
-        name: "Andet",
+        name: "Udenfor kategori",
         categoryIds: [5],
         url: "/other",
-        image: "/accessories.jpg",
+        image: "/accessories.png",
     },
     {
         id: 10,

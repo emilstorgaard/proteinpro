@@ -23,7 +23,7 @@ export const categories: Category[] = [
         id: 4,
         name: "Tilbehør",
         url: "/accessories",
-        image: "/accessories.jpg",
+        image: "/accessories.png",
     },
     {
         id: 5,
