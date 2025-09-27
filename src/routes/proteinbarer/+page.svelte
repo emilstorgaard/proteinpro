@@ -21,5 +21,5 @@
 				muskelopbygning, restitution og hjælper dig med at nå dit daglige proteinbehov."
 	/>
 
-	<Products products={proteinbarerProducts} title="Proteinbarer" />
+	<Products products={proteinbarerProducts} />
 </main>

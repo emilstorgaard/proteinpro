@@ -22,5 +22,5 @@
 				proteiner."
 	/>
 
-	<Products products={weightGainerProducts} title="Weight gainer" />
+	<Products products={weightGainerProducts} />
 </main>

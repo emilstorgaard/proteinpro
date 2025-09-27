@@ -7,21 +7,25 @@
 	export let categories: Category[] = [];
 </script>
 
-<section class="relative flex flex-col items-center justify-center py-10 text-center">
-	<div class="absolute inset-0 bg-gradient-to-r from-blue-900 via-blue-600 to-cyan-400"></div>
+<section
+	class="relative mx-auto flex max-w-6xl flex-col items-center justify-center px-3 py-8 text-center sm:px-4 lg:px-6"
+>
+	<h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl md:text-5xl">
+		{title}
+	</h2>
 
-	<div class="relative z-10 mx-auto max-w-3xl px-6 text-center">
-		<h1
-			class="text-3xl font-extrabold text-white drop-shadow-lg sm:text-4xl md:text-5xl lg:text-6xl"
-		>
-			{title}
-		</h1>
-		<p class="mt-4 text-base text-gray-200 sm:text-lg md:text-xl">
-			{text}
-		</p>
+	<p class="mt-4 text-base text-gray-600 sm:text-lg md:text-xl">
+		{text}
+	</p>
+
+	<div class="mt-8 flex flex-wrap justify-center gap-4">
+		{#each categories as category}
+			<a
+				href={category.url}
+				class="rounded-md bg-gray-100 px-6 py-3 text-sm font-medium text-gray-800 shadow transition hover:bg-gray-200 sm:text-base"
+			>
+				{category.name}
+			</a>
+		{/each}
 	</div>
-
-	{#if categories.length > 0}
-		<Categories {categories} />
-	{/if}
 </section>

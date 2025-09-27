@@ -20,5 +20,5 @@
 				tabletter eller drikke, og er en enkel måde at sikre optimal væskebalance på."
 	/>
 
-	<Products products={elektrolytterProducts} title="Elektrolytter" />
+	<Products products={elektrolytterProducts} />
 </main>

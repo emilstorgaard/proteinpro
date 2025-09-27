@@ -18,5 +18,5 @@
 				har brug for ekstra protein i hverdagen."
 	/>
 
-	<Products products={proteinpulverProducts} title="Proteinpulver" />
+	<Products products={proteinpulverProducts} />
 </main>

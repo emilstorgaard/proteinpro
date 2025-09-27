@@ -21,5 +21,5 @@
 		categories={foodAndSnacksSubCategories}
 	/>
 
-	<Products products={foodAndSnacksProducts} title="Mad & Snacks Produkter" />
+	<Products products={foodAndSnacksProducts} />
 </main>

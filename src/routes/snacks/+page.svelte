@@ -5,9 +5,7 @@
 
 	const snacksSubCategoryId = 10;
 
-	const snacksProducts = products.filter((p) =>
-		p.subCategoryIds.includes(snacksSubCategoryId)
-	);
+	const snacksProducts = products.filter((p) => p.subCategoryIds.includes(snacksSubCategoryId));
 </script>
 
 <main class="min-h-screen bg-gray-50">
@@ -21,5 +19,5 @@
 				muskelopbygning, restitution og hjælper dig med at nå dit daglige proteinbehov."
 	/>
 
-	<Products products={snacksProducts} title="Snacks" />
+	<Products products={snacksProducts} />
 </main>

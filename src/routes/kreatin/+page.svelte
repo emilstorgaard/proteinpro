@@ -19,5 +19,5 @@
 				kombineres med proteinpulver for maksimal muskelvækst og restitution."
 	/>
 
-	<Products products={kreatinProducts} title="Kreatin" />
+	<Products products={kreatinProducts} />
 </main>

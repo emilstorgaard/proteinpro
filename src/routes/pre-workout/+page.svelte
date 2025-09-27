@@ -19,5 +19,5 @@
                 Det kan blandes med vand som en shake og tages ca. 20–30 minutter før træning."
 	/>
 
-	<Products products={preWorkoutProducts} title="Pre workout" />
+	<Products products={preWorkoutProducts} />
 </main>

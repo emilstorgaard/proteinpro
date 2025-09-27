@@ -21,5 +21,5 @@
 		categories={energySubCategories}
 	/>
 
-	<Products products={energyProducts} title="Energi Produkter" />
+	<Products products={energyProducts} />
 </main>

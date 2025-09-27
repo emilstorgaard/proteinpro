@@ -21,5 +21,5 @@
 		categories={accessoriesSubCategories}
 	/>
 
-	<Products products={asseccoriesProducts} title="Tilbehør Produkter" />
+	<Products products={asseccoriesProducts} />
 </main>
