@@ -11,9 +11,7 @@
 	);
 
 	const otherProducts = products.filter((product) =>
-		product.subCategoryIds.some((id) =>
-			otherSubCategories.map((sc) => sc.id).includes(id)
-		)
+		product.subCategoryIds.some((id) => otherSubCategories.map((sc) => sc.id).includes(id))
 	);
 </script>
 

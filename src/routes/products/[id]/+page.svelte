@@ -29,8 +29,18 @@
 						href={product.url}
 						target="_blank"
 						rel="nofollow noopener"
-						class="mt-10 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:outline-hidden"
+						class="mt-10 inline-flex w-full items-center justify-center gap-2 rounded-lg border border-gray-300 bg-blue-600 px-6 py-3 text-base font-medium text-white shadow-md transition-all duration-300 hover:scale-105 hover:border-gray-400 hover:shadow-lg focus:ring-4 focus:ring-gray-300 focus:ring-offset-2 focus:outline-none active:scale-95"
 					>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke-width="2"
+							stroke="currentColor"
+							class="h-4 w-4"
+						>
+							<path stroke-linecap="round" stroke-linejoin="round" d="M3 12h18m-6-6 6 6-6 6" />
+						</svg>
 						Køb nu
 					</a>
 				</div>
