@@ -1,7 +1,7 @@
 <script lang="ts">
-	import { categories } from '$lib/data/categories';
+	export let data;
+
 	import Products from '$lib/components/Products.svelte';
-	import { products } from '$lib/data/products';
 	import Hero from '$lib/components/Hero.svelte';
 </script>
 
@@ -9,8 +9,8 @@
 	<Hero
 		title="BodyUp"
 		text="Din partner indenfor kosttilskud, energi og sundhed. Kvalitet og resultater til dig."
-		{categories}
+		categories={data.categories}
 	/>
 
-	<Products {products} title="Alle Produkter" />
+	<Products products={data.products} title="Alle Produkter" />
 </main>

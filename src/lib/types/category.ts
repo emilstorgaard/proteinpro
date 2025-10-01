@@ -1,6 +1,9 @@
+import type { SubCategory } from "./subCategory";
+
 export interface Category {
     id: number;
     name: string;
-    image: string;
     url: string;
+    description: string;
+    subCategories: SubCategory[];
 }

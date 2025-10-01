@@ -1,9 +1,16 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
 	let mobileMenuOpen = false;
 	let activeDropdown: string | null = null;
 
-	import { categories } from '$lib/data/categories';
-	import { subCategories } from '$lib/data/subCategories';
+	import { fetchAllCategories } from '$lib/api/categories';
+	import type { Category } from '$lib/types/category';
+
+	let categories: Category[] = [];
+
+	onMount(async () => {
+		categories = await fetchAllCategories();
+	});
 
 	function toggleDropdown(name: string) {
 		activeDropdown = activeDropdown === name ? null : name;
@@ -23,7 +30,7 @@
 				{#each categories as category, i}
 					<div class="group relative">
 						<a
-							href={category.url}
+							href={`/categories/${category.id}`}
 							class="relative font-medium text-gray-700 transition hover:text-blue-600"
 						>
 							{category.name}
@@ -36,9 +43,9 @@
 							class="invisible absolute z-20 mt-3 w-56 origin-top rounded-xl border border-gray-100 bg-white p-2 opacity-0 shadow-lg ring-1 ring-black/5 transition-all duration-200 ease-out group-hover:visible group-hover:translate-y-1 group-hover:opacity-100
           {i > categories.length - 3 ? 'right-0 left-auto' : 'left-0'}"
 						>
-							{#each subCategories.filter( (sc) => sc.categoryIds.includes(category.id) ) as subCategory}
+							{#each category.subCategories as subCategory}
 								<a
-									href={subCategory.url}
+									href={"/subcategory/" + subCategory.id}
 									class="block rounded-lg px-4 py-2 text-sm text-gray-700 transition hover:bg-blue-50 hover:text-blue-600"
 								>
 									{subCategory.name}
@@ -76,9 +83,9 @@
 					</button>
 					{#if activeDropdown === category.name}
 						<div class="bg-gray-50 pl-6">
-							{#each subCategories.filter( (sc) => sc.categoryIds.includes(category.id) ) as subCategory}
+							{#each category.subCategories as subCategory}
 								<a
-									href={subCategory.url}
+									href={"/subcategory/" + subCategory.id}
 									class="block rounded-md px-4 py-2 text-gray-600 hover:bg-gray-200"
 									on:click={() => {
 										mobileMenuOpen = false;

@@ -3,9 +3,8 @@ export interface Product {
     retailer: string;
     brand: string;
     name: string;
+    price: string;
     description: string;
-    subCategoryIds: number[];
-    price: number;
     image: string;
     url: string;
 }

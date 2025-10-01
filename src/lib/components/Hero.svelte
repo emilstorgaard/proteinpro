@@ -1,10 +1,11 @@
 <script lang="ts">
+	import type { SubCategory } from '$lib/types/subCategory';
 	import type { Category } from '../types/category';
-	import Categories from './Categories.svelte';
 
 	export let title: string;
 	export let text: string;
 	export let categories: Category[] = [];
+  export let subCategories: SubCategory[] = [];
 </script>
 
 <section
@@ -18,14 +19,30 @@
     {text}
   </p>
 
-  <div class="mt-8 flex flex-wrap justify-center gap-4">
-    {#each categories as category}
-      <a
-        href={category.url}
-        class="rounded-lg bg-blue-600 px-6 py-3 text-sm font-semibold text-white shadow-lg transition-all duration-300 ease-in-out hover:bg-[#0A4B87] hover:scale-105 sm:text-base"
-      >
-        {category.name}
-      </a>
-    {/each}
-  </div>
+  {#if subCategories.length}
+    <div class="mt-8 flex flex-wrap justify-center gap-4">
+      {#each subCategories as subCategory}
+        <a
+          href={"/subcategory/" + subCategory.id}
+          class="rounded-lg bg-blue-600 px-6 py-3 text-sm font-semibold text-white shadow-lg transition-all duration-300 ease-in-out hover:bg-[#0A4B87] hover:scale-105 sm:text-base"
+        >
+          {subCategory.name}
+        </a>
+      {/each}
+    </div>
+  {/if}
+
+  {#if categories.length}
+    <div class="mt-8 flex flex-wrap justify-center gap-4">
+      {#each categories as category}
+        <a
+          href={`/categories/${category.id}`}
+          class="rounded-lg bg-blue-600 px-6 py-3 text-sm font-semibold text-white shadow-lg transition-all duration-300 ease-in-out hover:bg-[#0A4B87] hover:scale-105 sm:text-base"
+        >
+          {category.name}
+        </a>
+      {/each}
+    </div>
+  {/if}
+
 </section>

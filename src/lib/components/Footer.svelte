@@ -1,5 +1,14 @@
 <script lang="ts">
-	import { categories } from '$lib/data/categories';
+	import { onMount } from 'svelte';
+
+	import { fetchAllCategories } from '$lib/api/categories';
+	import type { Category } from '$lib/types/category';
+
+	let categories: Category[] = [];
+
+	onMount(async () => {
+		categories = await fetchAllCategories();
+	});
 
 	const socialLinks = [
 		{ name: 'Instagram', url: 'https://www.instagram.com/bodyup.dk', icon: '/icons/instagram.png' },
@@ -20,7 +29,7 @@
 			<ul class="space-y-2">
 				{#each categories as category}
 					<li>
-						<a href={category.url} class="transition hover:text-blue-400">{category.name}</a>
+						<a href={`/categories/${category.id}`} class="transition hover:text-blue-400">{category.name}</a>
 					</li>
 				{/each}
 			</ul>
