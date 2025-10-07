@@ -1,6 +1,6 @@
 import type { SubCategory } from "$lib/types/subCategory";
 
-const API_BASE = "https://api.bodyup.dk/api";
+const API_BASE = "https://api.proteinpro.dk/api";
 
 export async function fetchAllSubCategories(): Promise<SubCategory[]> {
   const res = await fetch(`${API_BASE}/subcategories`);

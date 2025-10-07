@@ -1,6 +1,6 @@
 import type { Category } from "../types/category";
 
-const API_BASE = "https://api.bodyup.dk/api";
+const API_BASE = "https://api.proteinpro.dk/api";
 
 export async function fetchAllCategories(): Promise<Category[]> {
   const res = await fetch(`${API_BASE}/categories`);

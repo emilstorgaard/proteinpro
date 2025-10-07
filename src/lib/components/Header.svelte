@@ -22,7 +22,7 @@
 		<div class="flex h-20 items-center justify-between">
 			<div class="flex-shrink-0">
 				<a href="/">
-					<img src="/favicon.png" alt="BodyUp Logo" class="h-30 w-auto" />
+					<img src="/favicon.png" alt="ProteinPro Logo" class="h-30 w-auto" />
 				</a>
 			</div>
 

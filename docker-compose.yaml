@@ -2,6 +2,6 @@ version: '3.8'
 
 services:
   frontend:
-    image: bodyup:latest
+    image: proteinpro:latest
     ports:
       - '8680:8680'

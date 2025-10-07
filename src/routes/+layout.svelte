@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-	<title>Bodyup</title>
+	<title>ProteinPro</title>
 </svelte:head>
 
 <Header />

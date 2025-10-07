@@ -7,7 +7,7 @@
 
 <main class="min-h-screen bg-gray-50">
 	<Hero
-		title="BodyUp"
+		title="ProteinPro"
 		text="Din partner indenfor kosttilskud, energi og sundhed. Kvalitet og resultater til dig."
 		categories={data.categories}
 	/>

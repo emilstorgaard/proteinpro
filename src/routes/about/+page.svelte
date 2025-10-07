@@ -6,7 +6,7 @@
 	<Hero
 		title="Om os"
 		text="💥 Tag din træning til næste niveau!
-Hos BodyUp finder du kosttilskud, der hjælper dig med at presse én ekstra rep, restituere hurtigere og bygge mere kvalitet i dine gains. 💪⚡
+Hos ProteinPro finder du kosttilskud, der hjælper dig med at presse én ekstra rep, restituere hurtigere og bygge mere kvalitet i dine gains. 💪⚡
 
 👉 Vælg mellem proteinpulver, kreatin, pre-workout, weight gainer og snacks, der holder dig på sporet – vi har alt, du behøver for at nå dine mål.
 

@@ -11,8 +11,8 @@
 	});
 
 	const socialLinks = [
-		{ name: 'Instagram', url: 'https://www.instagram.com/bodyup.dk', icon: '/icons/instagram.png' },
-		{ name: 'TikTok', url: 'https://www.tiktok.com/@bodyup.dk', icon: '/icons/tiktok.png' }
+		{ name: 'Instagram', url: 'https://www.instagram.com/proteinpro.dk', icon: '/icons/instagram.png' },
+		{ name: 'TikTok', url: 'https://www.tiktok.com/@proteinpro.dk', icon: '/icons/tiktok.png' }
 	];
 </script>
 
@@ -59,7 +59,7 @@
 			</div>
 
 			<p class="text-sm text-gray-500">
-				&copy; {new Date().getFullYear()} Bodyup. Alle rettigheder forbeholdes.
+				&copy; {new Date().getFullYear()} ProteinPro. Alle rettigheder forbeholdes.
 			</p>
 		</div>
 	</div>
