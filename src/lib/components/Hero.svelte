@@ -9,8 +9,10 @@
 </script>
 
 <section
-  class="relative mx-auto flex max-w-6xl flex-col items-center justify-center px-4 py-12 text-center sm:px-6 lg:px-8 bg-gray-50"
+  class="relative mx-auto flex max-w-6xl flex-col items-center justify-center px-4 py-6 sm:py-8 lg:py-12 text-center sm:px-6 lg:px-8 bg-gray-50"
 >
+
+
   <h2 class="text-3xl font-extrabold text-blue-600 sm:text-4xl md:text-5xl leading-tight">
     {title}
   </h2>

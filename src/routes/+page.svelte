@@ -8,9 +8,9 @@
 <main class="min-h-screen bg-gray-50">
 	<Hero
 		title="ProteinPro"
-		text="Din partner indenfor kosttilskud, energi og sundhed. Kvalitet og resultater til dig."
+		text="Find de bedste kosttilskud og fitnessprodukter samlet ét sted. Vi guider dig til de bedste valg – baseret på kvalitet, pris og anmeldelser."
 		categories={data.categories}
 	/>
 
-	<Products products={data.products} title="Alle Produkter" />
+	<Products products={data.products} />
 </main>
