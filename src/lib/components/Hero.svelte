@@ -13,7 +13,7 @@
 >
 
 
-  <h2 class="text-3xl font-extrabold text-blue-600 sm:text-4xl md:text-5xl leading-tight">
+  <h2 class="text-3xl font-extrabold text-[#007EE1] sm:text-4xl md:text-5xl leading-tight">
     {title}
   </h2>
 
@@ -26,7 +26,7 @@
       {#each subCategories as subCategory}
         <a
           href={"/subcategory/" + subCategory.id}
-          class="rounded-lg bg-blue-600 px-6 py-3 text-sm font-semibold text-white shadow-lg transition-all duration-300 ease-in-out hover:bg-[#0A4B87] hover:scale-105 sm:text-base"
+          class="rounded-lg bg-[#007EE1] px-6 py-3 text-sm font-semibold text-white shadow-lg transition-all duration-300 ease-in-out hover:bg-[#0A4B87] hover:scale-105 sm:text-base"
         >
           {subCategory.name}
         </a>
@@ -39,7 +39,7 @@
       {#each categories as category}
         <a
           href={`/categories/${category.id}`}
-          class="rounded-lg bg-blue-600 px-6 py-3 text-sm font-semibold text-white shadow-lg transition-all duration-300 ease-in-out hover:bg-[#0A4B87] hover:scale-105 sm:text-base"
+          class="rounded-lg bg-[#007EE1] px-6 py-3 text-sm font-semibold text-white shadow-lg transition-all duration-300 ease-in-out hover:bg-[#0A4B87] hover:scale-105 sm:text-base"
         >
           {category.name}
         </a>

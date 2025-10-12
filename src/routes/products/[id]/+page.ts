@@ -2,9 +2,9 @@ import type { PageLoad } from './$types';
 import { fetchProduct } from '$lib/api/products';
 import type { Product } from '$lib/types/product';
 
-export const load: PageLoad = async ({ params }) => {
+export const load: PageLoad = async ({ params, fetch }) => {
 	const id = Number(params.id);
-	const product: Product = await fetchProduct(id);
+	const product: Product = await fetchProduct(fetch, id);
 
 	return { product };
 };

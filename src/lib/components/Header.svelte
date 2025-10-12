@@ -1,16 +1,10 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
 	let mobileMenuOpen = false;
 	let activeDropdown: string | null = null;
 
-	import { fetchAllCategories } from '$lib/api/categories';
 	import type { Category } from '$lib/types/category';
 
-	let categories: Category[] = [];
-
-	onMount(async () => {
-		categories = await fetchAllCategories();
-	});
+	export let categories: Category[] = [];
 
 	function toggleDropdown(name: string) {
 		activeDropdown = activeDropdown === name ? null : name;
@@ -31,11 +25,11 @@
 					<div class="group relative">
 						<a
 							href={`/categories/${category.id}`}
-							class="relative font-medium text-gray-700 transition hover:text-blue-600"
+							class="relative font-medium text-gray-700 transition hover:text-[#007EE1]"
 						>
 							{category.name}
 							<span
-								class="absolute -bottom-1 left-0 h-0.5 w-0 bg-blue-600 transition-all duration-300 group-hover:w-full"
+								class="absolute -bottom-1 left-0 h-0.5 w-0 bg-[#007EE1] transition-all duration-300 group-hover:w-full"
 							></span>
 						</a>
 
@@ -46,7 +40,7 @@
 							{#each category.subCategories as subCategory}
 								<a
 									href={"/subcategory/" + subCategory.id}
-									class="block rounded-lg px-4 py-2 text-sm text-gray-700 transition hover:bg-blue-50 hover:text-blue-600"
+									class="block rounded-lg px-4 py-2 text-sm text-gray-700 transition hover:bg-[#E6F3FD] hover:text-[#007EE1]"
 								>
 									{subCategory.name}
 								</a>
@@ -59,7 +53,7 @@
 			<div class="md:hidden">
 				<button
 					on:click={() => (mobileMenuOpen = !mobileMenuOpen)}
-					class="text-2xl text-gray-700 hover:text-blue-600 focus:outline-none"
+					class="text-2xl text-gray-700 hover:text-[#007EE1] focus:outline-none"
 				>
 					{#if mobileMenuOpen}
 						✖

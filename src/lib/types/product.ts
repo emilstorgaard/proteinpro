@@ -1,3 +1,9 @@
+export interface PagedProducts {
+    totalPages: number;
+    currentPage: number;
+    products: Product[];
+}
+
 export interface Product {
     id: number;
     retailer: string;

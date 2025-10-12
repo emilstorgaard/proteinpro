@@ -29,7 +29,7 @@
 						href={product.url}
 						target="_blank"
 						rel="nofollow noopener"
-						class="mt-10 inline-flex w-full items-center justify-center gap-2 rounded-lg border border-gray-300 bg-blue-600 px-6 py-3 text-base font-medium text-white shadow-md transition-all duration-300 hover:scale-105 hover:border-gray-400 hover:shadow-lg focus:ring-4 focus:ring-gray-300 focus:ring-offset-2 focus:outline-none active:scale-95"
+						class="mt-10 inline-flex w-full items-center justify-center gap-2 rounded-lg border border-gray-300 bg-[#007EE1] px-6 py-3 text-base font-medium text-white shadow-md transition-all duration-300 hover:scale-105 hover:border-gray-400 hover:shadow-lg focus:ring-4 focus:ring-gray-300 focus:ring-offset-2 focus:outline-none active:scale-95"
 					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +61,7 @@
 									href={product.url}
 									target="_blank"
 									rel="noopener noreferrer"
-									class="font-medium text-blue-600 underline underline-offset-2 hover:text-blue-700"
+									class="font-medium text-[#007EE1] underline underline-offset-2 hover:text-[#0065B5]"
 								>
 									{product.retailer}
 								</a>

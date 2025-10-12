@@ -3,13 +3,16 @@
 	import Header from '$lib/components/Header.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 
-	let { children } = $props();
+	import type { Category } from '$lib/types/category';
+
+	const { data, children } = $props();
+	const { categories } = data as { categories: Category[] };
 </script>
 
 <svelte:head>
 	<title>ProteinPro</title>
 </svelte:head>
 
-<Header />
+<Header {categories} />
 {@render children?.()}
-<Footer />
+<Footer {categories} />

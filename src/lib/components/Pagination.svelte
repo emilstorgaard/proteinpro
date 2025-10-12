@@ -40,7 +40,7 @@
 				<span class="px-2 py-1 text-gray-500 text-sm sm:text-base">…</span>
 			{:else}
 				<button
-					class="px-2 sm:px-3 py-1 rounded text-sm sm:text-base {currentPage === page ? 'bg-blue-500 text-white' : 'bg-gray-200'}"
+					class="px-2 sm:px-3 py-1 rounded text-sm sm:text-base {currentPage === page ? 'bg-[#1596EC] text-white' : 'bg-gray-200'}"
 					on:click={() => onPageChange(page as number)}
 				>
 					{page}

@@ -1,14 +1,7 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
-
-	import { fetchAllCategories } from '$lib/api/categories';
 	import type { Category } from '$lib/types/category';
 
-	let categories: Category[] = [];
-
-	onMount(async () => {
-		categories = await fetchAllCategories();
-	});
+	export let categories: Category[] = [];
 
 	const socialLinks = [
 		{ name: 'Instagram', url: 'https://www.instagram.com/proteinpro.dk', icon: '/icons/instagram.png' },
@@ -29,7 +22,7 @@
 			<ul class="space-y-2">
 				{#each categories as category}
 					<li>
-						<a href={`/categories/${category.id}`} class="transition hover:text-blue-400">{category.name}</a>
+						<a href={`/categories/${category.id}`} class="transition hover:text-[#3BA7F5]">{category.name}</a>
 					</li>
 				{/each}
 			</ul>
@@ -48,7 +41,7 @@
 				{#each socialLinks as social}
 					<a
 						href={social.url}
-						class="text-gray-400 hover:text-blue-400"
+						class="text-gray-400 hover:text-[#3BA7F5]"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
