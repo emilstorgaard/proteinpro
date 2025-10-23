@@ -30,37 +30,30 @@
   </div>
 </section>
 
-<!-- CATEGORY GRID SECTION -->
 {#if categories.length}
-<section class="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
-  <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
+<section class="relative mx-auto my-4 max-w-5xl px-2 py-2 sm:px-4 lg:px-6">
+  <div class="flex flex-wrap justify-center gap-2">
     {#each categories as category}
-      <a 
-        href={`/categories/${category.name.toLowerCase().replace(/\s+/g, '')}`} 
-        class="group relative block overflow-hidden rounded-lg shadow-md transition-transform duration-300 hover:scale-105"
-      >
-        <!-- Billede fylder hele kortet, mindre højde -->
-        <div class="w-full h-32 sm:h-40 lg:h-44 overflow-hidden">
-          <img 
-            src={"/images/" + category.image} 
-            alt={category.name} 
-            class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" 
-            loading="lazy" 
-          />
-        </div>
-
-        <!-- Overlay -->
-        <div class="absolute inset-0 bg-black/30 transition-opacity duration-300 group-hover:bg-black/40"></div>
-
-        <!-- Tekst -->
-        <div class="absolute bottom-0 left-0 right-0 p-2">
-          <h3 class="text-sm font-bold text-white tracking-wide drop-shadow-lg text-center uppercase">
-            {category.name}
-          </h3>
-        </div>
-      </a>
+    <a 
+      href={`/categories/${category.name.toLowerCase().replace(/\s+/g, '')}`} 
+      class="group relative block overflow-hidden rounded-sm shadow-sm flex-none w-[18%] aspect-square transform transition-transform duration-300 hover:scale-105"
+    >
+      <img 
+        src={"/images/" + category.image} 
+        alt={category.name} 
+        class="w-full h-full object-cover" 
+        loading="lazy" 
+      />
+      <div class="absolute inset-0 bg-black/20 transition duration-300 group-hover:bg-black/30"></div>
+      <div class="absolute bottom-0 left-0 right-0 p-1 flex justify-center">
+        <h3 
+          class="font-bold text-white text-center uppercase line-clamp-1 text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] tracking-wider"
+        >
+          {category.name}
+        </h3>
+      </div>
+    </a>
     {/each}
   </div>
 </section>
 {/if}
-
