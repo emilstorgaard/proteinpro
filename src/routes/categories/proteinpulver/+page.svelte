@@ -4,17 +4,15 @@
 	import Products from '$lib/components/Products.svelte';
 	import Hero from '$lib/components/Hero.svelte';
 
-  import { onMount } from "svelte";
-
   interface SlideItem {
     icon: string;
     text: string;
   }
 
   interface Slide {
-    title: string;      // HTML allowed
-    intro: string;  // short intro under title
-    content: string;    // HTML for multiple paragraphs
+    title: string;
+    intro: string;
+    content: string;
     items: SlideItem[];
   }
     let slides: Slide[] = [
@@ -284,7 +282,6 @@
   ];
 
   let current: number = 0;
-  let interval: number;
 
   const next = (): void => {
     current = (current + 1) % slides.length;
@@ -294,10 +291,9 @@
     current = (current - 1 + slides.length) % slides.length;
   };
 
-  onMount(() => {
-    interval = window.setInterval(next, 8000); // use window.setInterval for browser
-    return () => window.clearInterval(interval);
-  });
+  const goTo = (index: number) => {
+    current = index;
+  };
 </script>
 
 <main class="min-h-screen bg-gray-50">
@@ -356,10 +352,8 @@
       <div class="flex justify-center mt-6 space-x-2">
         {#each slides as _, i}
           <span 
-            class="w-3 h-3 rounded-full cursor-pointer"
-            class:bg-[#007EE1]={i === current}
-            class:bg-gray-300={i !== current}
-            on:click={() => current = i}
+          on:click={() => goTo(i)}
+          class="w-3 h-3 rounded-full cursor-pointer {i === current ? 'bg-[#007EE1]' : 'bg-gray-300'}"
           ></span>
         {/each}
       </div>
