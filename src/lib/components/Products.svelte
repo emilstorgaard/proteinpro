@@ -69,7 +69,7 @@
 	}
 </script>
 
-<section class="relative mx-auto max-w-6xl px-4 pb-12 sm:px-6 lg:px-8">
+<section class="relative mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
 	<!-- Top controls: filter, søg, sort -->
 	<div class="mb-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
 		<!-- Left side: filter + search -->
