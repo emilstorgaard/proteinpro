@@ -12,5 +12,5 @@
 		categories={data.categories}
 	/>
 
-	<Products products={data.products} />
+	<Products products={data.products} brands={data.brands} retailers={data.retailers} />
 </main>

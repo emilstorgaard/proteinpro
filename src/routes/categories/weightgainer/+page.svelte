@@ -8,9 +8,9 @@
 <main class="min-h-screen bg-gray-50">
   <Hero
     title={data.category.name}
-    text={data.category.description}
-    subCategories={data.subCategories}
+    text={""}
+		categories={data.categories}
   />
 
-  <Products products={data.products} />
+  <Products products={data.products} totalPages={data.totalPages} currentPage={data.currentPage} brands={data.brands} retailers={data.retailers} categoryId={3} />
 </main>

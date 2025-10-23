@@ -40,7 +40,7 @@
 							>
 								<path stroke-linecap="round" stroke-linejoin="round" d="M3 12h18m-6-6 6 6-6 6" />
 							</svg>
-							Køb nu
+							Til Produkt
 						</a>
 
 						<p class="mt-3 text-sm text-gray-600">
