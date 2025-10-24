@@ -1,9 +1,6 @@
 <script lang="ts">
-  import type { Category } from '../types/category';
-
   export let title: string;
   export let text: string;
-  export let categories: Category[] = [];
 </script>
 
 <!-- HERO SECTION -->
@@ -29,31 +26,3 @@
     </p>
   </div>
 </section>
-
-{#if categories.length}
-<section class="relative mx-auto my-4 max-w-5xl px-2 py-2 sm:px-4 lg:px-6">
-  <div class="flex flex-wrap justify-center gap-2">
-    {#each categories as category}
-    <a 
-      href={`/categories/${category.name.toLowerCase().replace(/\s+/g, '')}`} 
-      class="group relative block overflow-hidden rounded-sm shadow-sm flex-none w-[18%] aspect-square transform transition-transform duration-300 hover:scale-105"
-    >
-      <img 
-        src={"/images/" + category.image} 
-        alt={category.name} 
-        class="w-full h-full object-cover" 
-        loading="lazy" 
-      />
-      <div class="absolute inset-0 bg-black/20 transition duration-300 group-hover:bg-black/30"></div>
-      <div class="absolute bottom-0 left-0 right-0 p-1 flex justify-center">
-        <h3 
-          class="font-bold text-white text-center uppercase line-clamp-1 text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] tracking-wider"
-        >
-          {category.name}
-        </h3>
-      </div>
-    </a>
-    {/each}
-  </div>
-</section>
-{/if}
