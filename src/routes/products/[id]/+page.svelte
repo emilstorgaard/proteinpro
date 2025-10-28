@@ -23,7 +23,7 @@
 						</h1>
 
 						<div class="mt-4">
-							{#if product.originalPrice}
+							{#if product.originalPrice && Number(product.originalPrice) > Number(product.price)}
 								<p class="text-sm text-gray-500 line-through">{product.originalPrice} kr</p>
 							{/if}
 							<p class="text-3xl font-extrabold text-[#007EE1]">{product.price} kr</p>
