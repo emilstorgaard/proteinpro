@@ -10,6 +10,7 @@ export interface Product {
     brand: string;
     name: string;
     price: string;
+    originalPrice: string;
     description: string;
     image: string;
     url: string;

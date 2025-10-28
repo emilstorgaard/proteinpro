@@ -15,7 +15,7 @@
 	export let currentPage: number = 1;
 	export let categoryId: number;
 
-	let sortPrice: 'none' | 'price-low' | 'price-high' = 'none';
+	let sortPrice: 'none' | 'price-low' | 'price-high' | 'savings' = 'none';
 	let search: string = '';
 	let minPrice: number = 0;
 	let maxPrice: number = 10000;
@@ -190,35 +190,44 @@
       <option value="none">Ingen</option>
       <option value="price-low">Lav → Høj</option>
       <option value="price-high">Høj → Lav</option>
+      <option value="savings">Største besparelse</option>
     </select>
   </div>
 </div>
 
 
-	<!-- Produktgrid -->
-  <div class="mx-auto grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4 justify-center">
-    {#each products as product}
-      <a href={'/products/' + product.id} class="group block w-full sm:w-60">
-        <div
-          class="flex h-full flex-col overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm transition-transform duration-300 hover:-translate-y-2 hover:shadow-lg"
-        >
-          <div class="flex items-center justify-center bg-black/10 p-6">
-            <img
-              src={product.image}
-              alt={product.name}
-              class="h-36 w-36 object-contain transition-transform duration-300 group-hover:scale-105"
-            />
-          </div>
-          <div class="flex flex-grow flex-col p-4 text-center">
-            <h3 class="mb-2 line-clamp-2 text-sm font-semibold text-gray-900 sm:text-base">
-              {product.name}
-            </h3>
-            <p class="mt-auto text-lg font-bold text-[#007EE1] sm:text-xl">{product.price} kr</p>
-          </div>
+<!-- Produktgrid -->
+<div class="mx-auto grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4 justify-center">
+  {#each products as product}
+    <a href={'/products/' + product.id} class="group block w-full sm:w-60">
+      <div
+        class="flex h-full flex-col overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm transition-transform duration-300 hover:-translate-y-2 hover:shadow-lg"
+      >
+        <div class="flex items-center justify-center bg-black/10 p-6">
+          <img
+            src={product.image}
+            alt={product.name}
+            class="h-36 w-36 object-contain transition-transform duration-300 group-hover:scale-105"
+          />
         </div>
-      </a>
-    {/each}
-  </div>
+        <div class="flex flex-grow flex-col p-4 text-center">
+          <h3 class="mb-2 line-clamp-2 text-sm font-semibold text-gray-900 sm:text-base">
+            {product.name}
+          </h3>
+
+        <!-- Priser -->
+        <div class="mt-auto">
+          {#if product.originalPrice && Number(product.originalPrice) > Number(product.price)}
+            <p class="text-sm text-gray-400 line-through">{product.originalPrice} kr</p>
+          {/if}
+          <p class="text-lg font-bold text-[#007EE1] sm:text-xl">{product.price} kr</p>
+        </div>
+
+        </div>
+      </div>
+    </a>
+  {/each}
+</div>
 
 	<div class="mt-6">
 		<Pagination {currentPage} {totalPages} onPageChange={handlePageChange} />
