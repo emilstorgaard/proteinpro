@@ -21,7 +21,13 @@
 						<h1 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
 							{product.name}
 						</h1>
-						<p class="mt-4 text-3xl font-extrabold text-[#007EE1]">{product.price} kr</p>
+
+						<div class="mt-4">
+							{#if product.originalPrice}
+								<p class="text-sm text-gray-500 line-through">{product.originalPrice} kr</p>
+							{/if}
+							<p class="text-3xl font-extrabold text-[#007EE1]">{product.price} kr</p>
+						</div>
 
 						<a
 							href={product.url}
