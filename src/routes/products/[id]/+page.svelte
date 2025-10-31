@@ -6,8 +6,8 @@
 <main class="min-h-screen flex items-center justify-center py-10 px-4">
 	<section class="w-full max-w-4xl">
 		{#if product}
-			<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-				<div class="flex items-center justify-center p-6">
+			<div class="flex flex-col lg:flex-row gap-8">
+				<div class="flex-1 flex items-center justify-center p-6">
 					<img
 						src={product.image}
 						alt={`Billede af ${product.name}`}
@@ -16,7 +16,7 @@
 					/>
 				</div>
 
-				<div class="flex flex-col justify-between p-7 lg:p-9">
+				<div class="flex-1 flex flex-col justify-between p-7 lg:p-9">
 					<div>
 						<h1 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
 							{product.name}
@@ -64,7 +64,7 @@
 
 					<div class="mt-8 border-t border-gray-200 pt-5">
 						<h2 class="text-lg font-semibold text-gray-900 mb-2">Produktbeskrivelse</h2>
-						<p class="text-sm leading-relaxed text-gray-700">
+						<p class="text-sm leading-relaxed text-gray-700 overflow-auto max-h-[400px]">
 							{product.description}
 						</p>
 						<p class="mt-3 text-xs text-gray-500">
