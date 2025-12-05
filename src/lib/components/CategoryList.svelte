@@ -9,7 +9,7 @@
   <div class="flex flex-wrap justify-center gap-2">
     {#each categories as category}
     <a 
-      href={`/categories/${category.name.toLowerCase().replace(/\s+/g, '')}`} 
+      href={`/categories/${category.name.toLowerCase().replace(/\s+/g, '')}#content`} 
       class="group relative block overflow-hidden rounded-md shadow-sm flex-none w-[48%] sm:w-[32%] md:w-[24%] lg:w-[18%] aspect-square transform transition-transform duration-300 hover:scale-105"
     >
       <!-- Billedet -->
