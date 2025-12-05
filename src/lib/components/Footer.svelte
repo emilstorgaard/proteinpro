@@ -22,7 +22,7 @@
 			<ul class="space-y-2">
 				{#each categories as category}
 					<li>
-						<a href={`/categories/${category.name.toLowerCase().replace(/\s+/g, '')}`} class="transition hover:text-[#3BA7F5]">{category.name}</a>
+						<a href={`/categories/${category.name.toLowerCase().replace(/\s+/g, '')}#content`} class="transition hover:text-[#3BA7F5]">{category.name}</a>
 					</li>
 				{/each}
 			</ul>

@@ -19,7 +19,7 @@
 			<nav class="hidden space-x-8 md:flex">
 				{#each categories as category}
 					<a
-						href={`/categories/${category.name.toLowerCase().replace(/\s+/g, '')}`}
+						href={`/categories/${category.name.toLowerCase().replace(/\s+/g, '')}#content`}
 						class="group relative font-medium text-gray-700 transition hover:text-[#007EE1]"
 					>
 						{category.name}
@@ -51,7 +51,7 @@
 		<nav class="border-t bg-white/95 shadow-lg backdrop-blur-md md:hidden">
 			{#each categories as category}
 				<a
-					href={`/categories/${category.name.toLowerCase().replace(/\s+/g, '')}`}
+					href={`/categories/${category.name.toLowerCase().replace(/\s+/g, '')}#content`}
 					class="block border-b px-5 py-4 font-semibold text-gray-700 transition hover:bg-gray-50"
 					on:click={() => (mobileMenuOpen = false)}
 				>
